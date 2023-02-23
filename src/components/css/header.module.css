@@ -1,0 +1,61 @@
+header{
+  width: 100%;
+  text-align: center;
+  background-color: var(--main-color);
+  color: var(--white);
+  padding: 16px;
+}
+
+.h1{
+  color: var(--white);
+  font-size: xxx-large
+}
+
+
+
+
+
+/* 
+コピペCSS+微調整
+ */
+
+/* https://www.e-sanwa.co.jp/sbs/column/20180323/ */
+nav{
+  /* border-bottom: 1px solid #ccc; */
+  margin-bottom: 32px;
+  }
+  nav ul.header{
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  /* width: 80%; */
+  width: 50%;
+  text-align: center;
+  }
+  nav ul.header li{
+  display: table-cell;
+  min-width: 50px;
+  border-right: 1px solid #ccc;
+  }
+  nav ul.header li:first-child{
+  border-left: 1px solid #ccc;
+  }
+  nav ul.header li a{
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  text-decoration: none;
+  color: rgb(157 157 157);
+  }
+  nav ul.header li a:hover{
+  background-color:#9fdcff;
+  border-bottom: 0px solid #9fdcff;
+  color: var(--white);
+  }
+  nav ul.header li.current{
+  font-weight: bold;
+  }
+  nav ul.header li.current a{
+  border-bottom: 0px solid #2294D6;
+  color: #2294D6;
+  }

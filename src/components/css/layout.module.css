@@ -1,0 +1,21 @@
+
+/* 
+サイト全体にかけたいようなものはこのlayout.cssにかけばある程度全体にかかると思います。
+だいたい<Layout />コンポーネント使ってると思うので 
+*/
+
+body{
+  color: var(--font-color);
+}
+
+.layoutFrame{
+  display: flex;
+  justify-content: center;
+}
+
+/* media query レスポンシブ */
+@media(max-width: 1110px) {
+  .layoutFrame{
+    flex-direction: column
+  }
+}

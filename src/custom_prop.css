@@ -1,0 +1,12 @@
+/* サイト共通のカスタムプロパティ */
+:root {
+  --main-color: #2294D6;
+  --toc-block-line-color:#d2f3ff;
+  --font-color:#5e6c77;
+  --link-font-color:tomato;
+  --white:white;
+  --line-color:#e7e7e7;
+  --box-shadow-color:rgba(131, 131, 131, 0.5);
+  --th-color:aliceblue;
+}
+
