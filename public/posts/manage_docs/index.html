@@ -1,0 +1,677 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 5.7.0"/><meta name="description" content="Gatsby.js Blog Site" data-gatsby-head="true"/><style data-href="/styles.59b3b171999dc8c914c0.css" data-identity="gatsby-global-css">:root{--main-color:#2294d6;--toc-block-line-color:#d2f3ff;--font-color:#5e6c77;--link-font-color:tomato;--white:#fff;--line-color:#e7e7e7;--box-shadow-color:hsla(0,0%,51%,.5);--th-color:#f0f8ff}
+
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{-webkit-text-size-adjust:100%;line-height:1.15}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden]{display:none}body{box-sizing:border-box;margin:0;padding:0}a{color:#000;text-decoration:none}.toc-title{background-color:var(--main-color);color:#fff;font-size:20px;font-weight:700;padding:8px;text-align:center}.post-body .toc-block{border-bottom:4px solid var(--toc-block-line-color);border-left:4px solid var(--toc-block-line-color);border-right:4px solid var(--toc-block-line-color);padding:32px 64px}.post-body .toc-block ol{margin-bottom:16px;margin-top:8px}.post-body .toc-block ol li{border:none;border-radius:0;list-style:auto;margin:0;padding:0}.post-body .toc-block ol li p{margin:4px;padding:0}.post-body .toc-block ol li:before{display:none}.post-body .toc-block ol li:hover{background:none;color:var(--font-color)}.boxparts{border:3px solid #fff;margin:3em 0;padding:1em;position:relative}.boxparts .title{background:#fff;border-radius:5px 5px 0 0;color:#fff;display:inline-block;font-size:17px;font-weight:700;height:25px;left:-3px;line-height:25px;padding:0 9px;position:absolute;top:-27px}.boxparts p{margin:0;padding:0}.boxparts.point{border:3px solid #4169e1}.boxparts.point .title{background:#4169e1}.boxparts.point .title:after{background:#4169e1;content:"POINT"}.boxparts.caution{border:3px solid tomato}.boxparts.caution .title{background:tomato}.boxparts.caution .title:after{background:tomato;content:"注意"}.boxparts.ref{border:3px solid green}.boxparts.ref .title{background:green}.boxparts.ref .title:after{background:green;content:"参考"}.boxparts.memo{border:3px solid #696969}.boxparts.memo .title{background:#696969}.boxparts.memo .title:after{background:#696969;content:"MEMO"}.balloon{align-items:center;display:flex;justify-content:left;margin:24px;width:auto}.balloon .icon{background-image:url(/static/profile_img-8f03c49ada15897ada862f60549be989.jpg);background-size:120px;border-radius:50%;height:120px;object-fit:cover;width:120px}.balloon .talk{background:#fff;border:3px solid #a1a1a1;border-radius:16px;box-sizing:border-box;color:var(--font-color);display:inline-block;font-size:16px;line-height:1.4rem;margin:1.5em 0 1.5em 15px;min-width:120px;padding:12px 16px;position:relative;width:77%}.balloon .talk:before{border:12px solid transparent;border-right-color:#fff;content:"";left:-24px;margin-top:-12px;position:absolute;top:50%;z-index:2}.balloon .talk:after{border:14px solid transparent;border-right-color:#a1a1a1;content:"";left:-30px;margin-top:-14px;position:absolute;top:50%;z-index:1}@media(max-width:1110px){.balloon .icon{background-size:100px;height:100px;width:100px}}.gatsby-code-title{background:#272822;border-top-right-radius:.3em;display:block;top:10px;width:100%}.gatsby-code-title,.gatsby-code-title span{border-top-left-radius:.3em;position:relative}.gatsby-code-title span{background:#777;border-bottom-right-radius:.3em;color:#eee;display:inline;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;padding:1px}pre[class*=language-]{border-radius:6px;padding:2em}code[class*=language-],pre[class*=language-]{color:#d4d4d4;direction:ltr;font-family:Menlo,Monaco,Consolas,Andale Mono,Ubuntu Mono,Courier New,monospace;font-size:13px;-webkit-hyphens:none;hyphens:none;line-height:1.5;tab-size:4;text-align:left;text-shadow:none;white-space:pre;word-break:normal;word-spacing:normal}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{background:#264f78;text-shadow:none}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{background:#1e1e1e;margin:.5em 0;overflow:auto;padding:1em}:not(pre)>code[class*=language-]{background:#1e1e1e;border-radius:.3em;color:#db4c69;padding:.1em .3em}.namespace{opacity:.7}.token.doctype .token.doctype-tag{color:#569cd6}.token.doctype .token.name{color:#9cdcfe}.token.comment,.token.prolog{color:#6a9955}.language-html .language-css .token.punctuation,.language-html .language-javascript .token.punctuation,.token.punctuation{color:#d4d4d4}.token.boolean,.token.constant,.token.inserted,.token.number,.token.property,.token.symbol,.token.tag,.token.unit{color:#b5cea8}.token.attr-name,.token.builtin,.token.char,.token.deleted,.token.selector,.token.string{color:#ce9178}.language-css .token.string.url{text-decoration:underline}.token.entity,.token.operator{color:#d4d4d4}.token.operator.arrow{color:#569cd6}.token.atrule{color:#ce9178}.token.atrule .token.rule{color:#c586c0}.token.atrule .token.url{color:#9cdcfe}.token.atrule .token.url .token.function{color:#dcdcaa}.token.atrule .token.url .token.punctuation{color:#d4d4d4}.token.keyword{color:#569cd6}.token.keyword.control-flow,.token.keyword.module{color:#c586c0}.token.function,.token.function .token.maybe-class-name{color:#dcdcaa}.token.regex{color:#d16969}.token.important{color:#569cd6}.token.italic{font-style:italic}.token.constant{color:#9cdcfe}.token.class-name,.token.maybe-class-name{color:#4ec9b0}.token.console,.token.interpolation,.token.parameter{color:#9cdcfe}.token.boolean,.token.punctuation.interpolation-punctuation{color:#569cd6}.token.exports .token.maybe-class-name,.token.imports .token.maybe-class-name,.token.property,.token.variable{color:#9cdcfe}.token.escape,.token.selector{color:#d7ba7d}.token.tag{color:#569cd6}.token.cdata,.token.tag .token.punctuation{color:grey}.token.attr-name{color:#9cdcfe}.token.attr-value,.token.attr-value .token.punctuation{color:#ce9178}.token.attr-value .token.punctuation.attr-equals{color:#d4d4d4}.token.entity{color:#569cd6}.token.namespace{color:#4ec9b0}code[class*=language-javascript],code[class*=language-jsx],code[class*=language-tsx],code[class*=language-typescript],pre[class*=language-javascript],pre[class*=language-jsx],pre[class*=language-tsx],pre[class*=language-typescript]{color:#9cdcfe}code[class*=language-css],pre[class*=language-css]{color:#ce9178}code[class*=language-html],pre[class*=language-html]{color:#d4d4d4}.language-regex .token.anchor{color:#dcdcaa}.language-html .token.punctuation{color:grey}pre[class*=language-]>code[class*=language-]{position:relative;z-index:1}.line-highlight.line-highlight{background:#f7ebc6;box-shadow:inset 5px 0 0 #f7d87c;z-index:0}header{background-color:var(--main-color);color:var(--white);padding:16px;text-align:center;width:100%}.header-module--h1--03303{color:var(--white);font-size:xxx-large}nav{margin-bottom:32px}nav ul.header-module--header--4d4e3{display:table;margin:0 auto;padding:0;text-align:center;width:50%}nav ul.header-module--header--4d4e3 li{border-right:1px solid #ccc;display:table-cell;min-width:50px}nav ul.header-module--header--4d4e3 li:first-child{border-left:1px solid #ccc}nav ul.header-module--header--4d4e3 li a{color:#9d9d9d;display:block;padding:10px 0;text-decoration:none;width:100%}nav ul.header-module--header--4d4e3 li a:hover{background-color:#9fdcff;border-bottom:0 solid #9fdcff;color:var(--white)}nav ul.header-module--header--4d4e3 li.header-module--current--1d6d4{font-weight:700}nav ul.header-module--header--4d4e3 li.header-module--current--1d6d4 a{border-bottom:0 solid #2294d6;color:#2294d6}footer{background-color:#7c7c7c;color:var(--white);margin-top:32px;padding:4px;text-align:center;width:100%}body{color:var(--font-color)}.layout-module--layoutFrame--cc61d{display:flex;justify-content:center}@media(max-width:1110px){.layout-module--layoutFrame--cc61d{flex-direction:column}}.profile-module--profileBox--9f04d{border:1px solid var(--line-color);box-shadow:0 3px 3px var(--box-shadow-color);margin:32px;max-width:780px;padding:32px;text-align:center}.profile-module--profileIcon--39843{border-radius:50%;height:120px;object-fit:cover;width:120px}.profile-module--userName--6e50e{margin:4px}.profile-module--userJob--e60b2{color:gray;font-size:12px;margin:4px}.profile-module--profileItem--ef5b3{font-size:14px;margin:16px 0 0;white-space:pre-wrap}@media(max-width:1110px){img{width:100px}}.tags-module--tagsBox--b394f{border:1px solid var(--line-color);box-shadow:0 3px 3px var(--box-shadow-color);margin:32px;text-align:center;width:auto}.tags-module--aTotalCnt--c4f2f{font-size:20px}.tags-module--title--2057e{background-color:var(--main-color);color:var(--white);font-size:24px;padding:8px;width:auto}ul{padding-left:0}li{list-style:none;margin-bottom:16px}.pagenate-module--pagenateFrame--8165a{margin:32px 64px;max-width:860px;min-width:360px;text-align:center}.pagenate-module--pagenateFrame--8165a a{background-color:var(--main-color);border-radius:50%;color:var(--white);display:inline-block;height:32px;margin:0 4px;position:relative;text-align:center;width:32px}.pagenate-module--pagenateFrame--8165a a span{left:50%;margin:-10px 0 0 -4px;position:absolute;top:50%}.pagenate-module--pagenateFrame--8165a a span.pagenate-module--allow--338a0{margin:-10px 0 0 -7px}.index-module--articleFrame--ea195{max-width:960px;min-width:770px}.index-module--articleBox--76d80{align-items:center;border:1px solid var(--line-color);box-shadow:0 3px 3px var(--box-shadow-color);display:flex;justify-content:space-evenly;margin:32px;padding:32px}img{width:200px}.index-module--articleData--c17a4{text-align:center;width:30%}.index-module--articlePrev--34dd0{-webkit-box-orient:vertical;-webkit-line-clamp:3;display:-webkit-box;font-size:12px;overflow:hidden;width:30%}.index-module--sideFrame--4e717{max-width:320px;min-width:256px}.index-module--tagHeader--5afc0{background-color:var(--main-color);border-radius:8px;color:var(--white);font-weight:500;margin:0 32px;padding:12px;text-align:center;width:auto}@media(max-width:1110px){.index-module--articleFrame--ea195{min-width:500px}.index-module--sideFrame--4e717{max-width:960px;min-width:500px}img{width:100px}}div{word-wrap:break-word}figure{text-align:center}figcaption{color:gray;font-size:12px;margin-top:8px}.article-module--articleFrame--a17ec{margin:32px;max-width:760px}.article-module--date--be079{text-align:right}.article-module--eyeCatch--eeb44{align-items:center;display:flex;flex-direction:column;text-align:center;width:auto}.article-module--eyeCatchWidth--29baa{margin:64px 0;width:50%}h1{text-align:center}table{border-collapse:collapse;margin:8px;width:100%}th{background-color:var(--th-color);width:20%}td,th{border:1px solid gray;padding:16px}.article-module--articleBody--7652f h2{background:var(--main-color);border-radius:8px;color:var(--white);margin-top:32px;padding:.6em;position:relative}.article-module--articleBody--7652f h2:after{border:15px solid transparent;border-top:15px solid var(--main-color);content:"";height:0;left:30px;position:absolute;top:100%;width:0}.article-module--articleBody--7652f h3{background:transparent;border-left:5px solid var(--main-color);color:var(--font-color);font-weight:400;margin:32px 0;padding:.25em .5em}.article-module--articleBody--7652f h4{background:transparent;border-left:2px solid var(--main-color);color:var(--font-color);padding:.25em .5em}.article-module--articleBody--7652f{max-width:720px}.article-module--articleBody--7652f p{font-size:1em;letter-spacing:.05em;line-height:1.8em;margin-bottom:0;margin-left:24px;margin-top:0;padding-bottom:1rem;padding-top:0}.article-module--articleBody--7652f p a{color:var(--link-font-color)}.article-module--articleBody--7652f p a:hover{color:var(--main-color)}.article-module--articleBody--7652f ul{counter-reset:list;font:14px/1.6 arial narrow,sans-serif;list-style-type:none;margin-left:32px;margin-top:16px;padding:0;width:90%}.article-module--articleBody--7652f ul li{border-bottom:1px dashed var(--main-color);font-size:14px;line-height:30px;margin:7px 0;padding:0 0 0 20px;position:relative}.article-module--articleBody--7652f ul li:before{background:var(--main-color);border-radius:50%;content:"";counter-increment:list;display:block;height:10px;left:0;position:absolute;top:50%;transform:translateY(-50%);width:10px}.article-module--articleBody--7652f ol{counter-reset:list;font:14px/1.6 arial narrow,sans-serif;list-style-type:none;margin-bottom:32px;margin-left:32px;margin-top:16px;padding:0;width:90%}.article-module--articleBody--7652f ol li{border:1px solid var(--main-color);border-radius:20px;font-size:14px;line-height:30px;margin:7px 0;padding-left:40px;position:relative;transition:.3s}.article-module--articleBody--7652f ol li:before{background:var(--main-color);border-radius:50%;color:#fff;content:counter(list);counter-increment:list;height:30px;left:0;line-height:30px;position:absolute;text-align:center;top:50%;transform:translateY(-50%);width:30px}.article-module--articleBody--7652f ol li:hover{background:var(--main-color);color:#fff}.article-module--articleBody--7652f ol li:hover:before{background:#fff;color:var(--main-color)}@media(max-width:1110px){.article-module--articleBody--7652f,.article-module--articleFrame--a17ec{max-width:100%}}</style><style type="text/css">
+    .toc-icon.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .toc-icon.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .toc-icon svg,
+    h2 .toc-icon svg,
+    h3 .toc-icon svg,
+    h4 .toc-icon svg,
+    h5 .toc-icon svg,
+    h6 .toc-icon svg {
+      visibility: hidden;
+    }
+    h1:hover .toc-icon svg,
+    h2:hover .toc-icon svg,
+    h3:hover .toc-icon svg,
+    h4:hover .toc-icon svg,
+    h5:hover .toc-icon svg,
+    h6:hover .toc-icon svg,
+    h1 .toc-icon:focus svg,
+    h2 .toc-icon:focus svg,
+    h3 .toc-icon:focus svg,
+    h4 .toc-icon:focus svg,
+    h5 .toc-icon:focus svg,
+    h6 .toc-icon:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){const t=e.target;if(void 0===t.dataset.mainImage)return;if(void 0===t.dataset.gatsbyImageSsr)return;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><title data-gatsby-head="true">【プロジェクト管理】ツールの保守運用に必要なドキュメントの概要</title></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div><div><header><a href="/"><div class="header-module--h1--03303">BlogTitle</div></a></header><nav><ul class="header-module--header--4d4e3"><li><a href="/">HOME</a></li><li><a href="/about/">ABOUT</a></li></ul></nav></div><div class="layout-module--layoutFrame--cc61d"><div class="article-module--articleFrame--a17ec"><h1>【プロジェクト管理】ツールの保守運用に必要なドキュメントの概要</h1><div class="article-module--date--be079">📝 更新日：<!-- -->2022-12-20<!-- --> / 📄 作成日：<!-- -->2022-12-20</div><div class="article-module--eyeCatch--eeb44"><div class="article-module--eyeCatchWidth--29baa"><div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained"><div style="max-width:512px;display:block"><img alt="" role="presentation" aria-hidden="true" src="data:image/svg+xml;charset=utf-8,%3Csvg%20height=&#x27;512&#x27;%20width=&#x27;512&#x27;%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20version=&#x27;1.1&#x27;%3E%3C/svg%3E" style="max-width:100%;display:block;position:static"/></div><div aria-hidden="true" data-placeholder-image="" style="opacity:1;transition:opacity 500ms linear;background-color:#f8b898;position:absolute;top:0;left:0;bottom:0;right:0"></div><picture><source type="image/webp" data-srcset="/static/57da643dde754066622bc1bac108f77d/6766a/file_icatch.webp 128w,/static/57da643dde754066622bc1bac108f77d/22bfc/file_icatch.webp 256w,/static/57da643dde754066622bc1bac108f77d/d689f/file_icatch.webp 512w" sizes="(min-width: 512px) 512px, 100vw"/><img data-gatsby-image-ssr="" data-main-image="" style="opacity:0" sizes="(min-width: 512px) 512px, 100vw" decoding="async" loading="lazy" data-src="/static/57da643dde754066622bc1bac108f77d/3c367/file_icatch.jpg" data-srcset="/static/57da643dde754066622bc1bac108f77d/19e71/file_icatch.jpg 128w,/static/57da643dde754066622bc1bac108f77d/68974/file_icatch.jpg 256w,/static/57da643dde754066622bc1bac108f77d/3c367/file_icatch.jpg 512w" alt="Hero Image"/></picture><noscript><picture><source type="image/webp" srcSet="/static/57da643dde754066622bc1bac108f77d/6766a/file_icatch.webp 128w,/static/57da643dde754066622bc1bac108f77d/22bfc/file_icatch.webp 256w,/static/57da643dde754066622bc1bac108f77d/d689f/file_icatch.webp 512w" sizes="(min-width: 512px) 512px, 100vw"/><img data-gatsby-image-ssr="" data-main-image="" style="opacity:0" sizes="(min-width: 512px) 512px, 100vw" decoding="async" loading="lazy" src="/static/57da643dde754066622bc1bac108f77d/3c367/file_icatch.jpg" srcSet="/static/57da643dde754066622bc1bac108f77d/19e71/file_icatch.jpg 128w,/static/57da643dde754066622bc1bac108f77d/68974/file_icatch.jpg 256w,/static/57da643dde754066622bc1bac108f77d/3c367/file_icatch.jpg 512w" alt="Hero Image"/></picture></noscript><script type="module">const t="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll("img[data-main-image]");for(let e of t){e.dataset.src&&(e.setAttribute("src",e.dataset.src),e.removeAttribute("data-src")),e.dataset.srcset&&(e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset"));const t=e.parentNode.querySelectorAll("source[data-srcset]");for(let e of t)e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset");e.complete&&(e.style.opacity=1,e.parentNode.parentNode.querySelector("[data-placeholder-image]").style.opacity=0)}}</script></div></div></div><div class="article-module--articleBody--7652f"><div class="post-body"><div class="toc-title">目次</div>
+<div class="toc-block">
+<ol>
+<li>
+<p><a href="#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB">はじめに</a></p>
+</li>
+<li>
+<p><a href="#%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E8%A8%88%E7%94%BB%E6%9B%B8">プロジェクト計画書</a></p>
+<ol>
+<li><a href="#%E7%9B%AE%E7%9A%84%E8%83%8C%E6%99%AF">目的・背景</a></li>
+<li><a href="#%E6%9C%AC%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97">本プロジェクトのスコープ</a></li>
+<li><a href="#%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95">ソリューション(解決方法)</a></li>
+<li><a href="#%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB">マスタースケジュール</a></li>
+<li><a href="#%E3%82%BF%E3%82%B9%E3%82%AF%E6%88%90%E6%9E%9C%E7%89%A9%E4%B8%80%E8%A6%A7">タスク・成果物一覧</a></li>
+<li><a href="#%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E4%BD%93%E5%88%B6">プロジェクト体制</a></li>
+<li><a href="#%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%AB">プロジェクトのルール</a></li>
+<li><a href="#%E5%93%81%E8%B3%AA%E7%AE%A1%E7%90%86%E6%96%B9%E9%87%9D">品質管理方針</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9">要件定義</a></p>
+<ol>
+<li>
+<p><a href="#%E6%A5%AD%E5%8B%99%E3%83%95%E3%83%AD%E3%83%BC">業務フロー</a></p>
+<ol>
+<li><a href="#%E6%A5%AD%E5%8B%99%E3%83%95%E3%83%AD%E3%83%BC%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">業務フローをもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E6%A5%AD%E5%8B%99%E7%94%A8%E4%BB%B6%E4%B8%80%E8%A6%A7">業務用件一覧</a></p>
+<ol>
+<li><a href="#%E6%A5%AD%E5%8B%99%E7%94%A8%E4%BB%B6%E4%B8%80%E8%A6%A7%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">業務用件一覧をもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E6%A9%9F%E8%83%BD%E8%A6%81%E4%BB%B6%E4%B8%80%E8%A6%A7">機能要件一覧</a></p>
+<ol>
+<li><a href="#%E6%A9%9F%E8%83%BD%E8%A6%81%E4%BB%B6%E4%B8%80%E8%A6%A7%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">機能要件一覧をもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E6%A9%9F%E8%83%BD%E9%85%8D%E7%BD%AE%E5%9B%B3">機能配置図</a></p>
+<ol>
+<li><a href="#%E6%A9%9F%E8%83%BD%E9%85%8D%E7%BD%AE%E5%9B%B3%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">機能配置図をもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9if%E4%B8%80%E8%A6%A7">インタフェース(IF)一覧</a></p>
+<ol>
+<li><a href="#%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9if%E4%B8%80%E8%A6%A7%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">インタフェース(IF)一覧をもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E4%B8%80%E8%A6%A7">ライセンス一覧</a></p>
+</li>
+<li>
+<p><a href="#%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E4%B8%80%E8%A6%A7">テーブル一覧</a></p>
+<ol>
+<li><a href="#%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E4%B8%80%E8%A6%A7%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">テーブル一覧をもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#er%E5%9B%B3">ER図</a></p>
+</li>
+<li>
+<p><a href="#%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3">画面遷移図</a></p>
+</li>
+<li>
+<p><a href="#%E9%9D%9E%E6%A9%9F%E8%83%BD%E8%A6%81%E4%BB%B6">非機能要件</a></p>
+</li>
+<li>
+<p><a href="#if%E9%A0%85%E7%9B%AE%E5%AE%9A%E7%BE%A9%E6%9B%B8">IF項目定義書</a></p>
+</li>
+<li>
+<p><a href="#%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E9%A0%85%E7%9B%AE%E5%AE%9A%E7%BE%A9%E6%9B%B8">テーブル項目定義書</a></p>
+<ol>
+<li><a href="#%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E9%A0%85%E7%9B%AE%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">テーブル項目定義書をもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E7%94%BB%E9%9D%A2%E9%A0%85%E7%9B%AE%E5%AE%9A%E7%BE%A9%E6%9B%B8">画面項目定義書</a></p>
+<ol>
+<li><a href="#%E7%94%BB%E9%9D%A2%E9%A0%85%E7%9B%AE%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">画面項目定義書をもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E6%A8%99%E6%BA%96%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E5%AE%9A%E7%BE%A9%E6%9B%B8">標準パラメータ定義書</a></p>
+</li>
+<li>
+<p><a href="#%E5%87%A6%E7%90%86%E6%A6%82%E8%A6%81%E5%AE%9A%E7%BE%A9%E6%9B%B8">処理概要定義書</a></p>
+<ol>
+<li><a href="#%E5%87%A6%E7%90%86%E6%A6%82%E8%A6%81%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">処理概要定義書をもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E3%82%B3%E3%83%BC%E3%83%89%E5%AE%9A%E7%BE%A9%E6%9B%B8">コード定義書</a></p>
+<ol>
+<li><a href="#%E3%82%B3%E3%83%BC%E3%83%89%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">コード定義書をもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A%E5%AE%9A%E7%BE%A9%E6%9B%B8">環境設定定義書</a></p>
+</li>
+</ol>
+</li>
+<li>
+<p><a href="#%E3%83%86%E3%82%B9%E3%83%88">テスト</a></p>
+<ol>
+<li>
+<p><a href="#%E3%83%86%E3%82%B9%E3%83%88%E8%A8%88%E7%94%BB%E6%9B%B8">テスト計画書</a></p>
+<ol>
+<li><a href="#%E3%83%86%E3%82%B9%E3%83%88%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97%E3%81%AE%E5%AE%9A%E7%BE%A9">テストスコープの定義</a></li>
+<li><a href="#%E9%96%8B%E5%A7%8B%E6%9D%A1%E4%BB%B6%E3%81%A8%E5%AE%8C%E4%BA%86%E6%9D%A1%E4%BB%B6">開始条件と完了条件</a></li>
+<li><a href="#%E3%83%86%E3%82%B9%E3%83%88%E5%AE%9F%E6%96%BD%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB">テスト実施スケジュール</a></li>
+<li><a href="#%E9%9A%9C%E5%AE%B3%E7%AE%A1%E7%90%86%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9">障害管理プロセス</a></li>
+<li><a href="#%E3%83%86%E3%82%B9%E3%83%88%E5%AE%9F%E6%96%BD%E4%BD%93%E5%88%B6">テスト実施体制</a></li>
+<li><a href="#%E3%83%86%E3%82%B9%E3%83%88%E6%9C%9F%E9%96%93%E4%B8%AD%E3%81%AE%E6%83%85%E5%A0%B1%E9%80%A3%E6%90%BA">テスト期間中の情報連携</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E5%8D%98%E4%BD%93%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%AE%9A%E7%BE%A9%E6%9B%B8">単体テストコンディション定義書</a></p>
+<ol>
+<li><a href="#%E5%8D%98%E4%BD%93%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">単体テストコンディション定義書をもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E7%B5%90%E5%90%88%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%AE%9A%E7%BE%A9%E6%9B%B8">結合テストコンディション・シナリオ定義書</a></p>
+<ol>
+<li><a href="#%E7%B5%90%E5%90%88%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">結合テストコンディション・シナリオ定義書をもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E7%B7%8F%E5%90%88%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%AE%9A%E7%BE%A9%E6%9B%B8">総合テストコンディション・シナリオ定義書</a></p>
+<ol>
+<li><a href="#%E7%B7%8F%E5%90%88%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">総合テストコンディション・シナリオ定義書をもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E9%9A%9C%E5%AE%B3%E4%B8%80%E8%A6%A7">障害一覧</a></p>
+<ol>
+<li><a href="#%E9%9A%9C%E5%AE%B3%E4%B8%80%E8%A6%A7%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99">障害一覧をもとに作られる、または紐づく主な資料</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p><a href="#%E7%A7%BB%E8%A1%8C%E8%A8%88%E7%94%BB">移行計画</a></p>
+<ol>
+<li>
+<p><a href="#%E7%A7%BB%E8%A1%8C%E8%A8%88%E7%94%BB%E6%9B%B8">移行計画書</a></p>
+<ol>
+<li><a href="#%E7%A7%BB%E8%A1%8C%E6%96%B9%E9%87%9D%E3%81%AE%E6%A6%82%E8%A6%81">移行方針の概要</a></li>
+<li><a href="#%E7%A7%BB%E8%A1%8C%E5%AF%BE%E8%B1%A1%E3%83%87%E3%83%BC%E3%82%BF%E4%B8%80%E8%A6%A7">移行対象データ一覧</a></li>
+<li><a href="#%E7%A7%BB%E8%A1%8C%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB">移行スケジュール</a></li>
+<li><a href="#%E7%A7%BB%E8%A1%8C%E4%BD%93%E5%88%B6">移行体制</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E7%A7%BB%E8%A1%8C%E6%89%8B%E9%A0%86%E6%9B%B8">移行手順書</a></p>
+</li>
+</ol>
+</li>
+<li>
+<p><a href="#%E9%81%8B%E7%94%A8%E8%A8%88%E7%94%BB">運用計画</a></p>
+<ol>
+<li><a href="#%E9%81%8B%E7%94%A8%E4%BD%9C%E6%A5%AD%E4%B8%80%E8%A6%A7">運用作業一覧</a></li>
+<li><a href="#%E9%81%8B%E7%94%A8%E4%BD%9C%E6%A5%AD%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB">運用作業マニュアル</a></li>
+<li><a href="#%E9%9A%9C%E5%AE%B3%E5%A0%B1%E5%91%8A%E6%9B%B8">障害報告書</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E7%AE%A1%E7%90%86">プロジェクト管理</a></p>
+<ol>
+<li><a href="#wbs">WBS</a></li>
+<li><a href="#todo%E8%AA%B2%E9%A1%8C%E4%B8%80%E8%A6%A7">TODO・課題一覧</a></li>
+<li><a href="#%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%88">レビューシート</a></li>
+</ol>
+</li>
+<li>
+<p><a href="#%E3%81%95%E3%81%84%E3%81%94%E3%81%AB">さいごに</a></p>
+</li>
+</ol>
+</div>
+<h2 id="はじめに" style="position:relative;"><a href="#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB" aria-label="はじめに permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>はじめに</h2>
+<p>ドキュメント管理がされておらず、仕様がわからないツールの対応ばかりをしてきました。</p>
+<p>そんな対応はとてもつらく、どうすればこういった辛さを軽減できるのか。<br>
+と思い、まずドキュメント管理から、独学ですがUdemyでひとまず学びました。</p>
+<p>その内容を個人のメモのために記載しています。<br>
+規模も大きく様々なやり方、考え方があるので、あくまで参考程度にして頂ければ幸いです。</p>
+<div class="boxparts ref">
+  <div class="title"></div>
+<p>手を動かして学ぶITプロジェクトの資料作成！システム開発のドキュメンテーション技術と成果物テンプレート<br>
+<a href="https://www.udemy.com/course/it-yugtl/">https://www.udemy.com/course/it-yugtl/</a></p>
+</div>
+<p>なお、ドキュメントの記載方法やFMTはチームごとに違うと思います。</p>
+<p>表形式、リスト、図、フローチャートなどなどありますが、結果きちんと記載、確認、共有できれば良いので、どんなドキュメントがあればいいのか？も含めてドキュメント作成、運用しやすいものを選定することは必要だと思います。</p>
+<p>0から始める場合に、一番いいのはUdemyの講座の原本やチーム内にある原本から作成を始めることだとおもいます。</p>
+<h2 id="プロジェクト計画書" style="position:relative;"><a href="#%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E8%A8%88%E7%94%BB%E6%9B%B8" aria-label="プロジェクト計画書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>プロジェクト計画書</h2>
+<p>このプロジェクトの目的や背景、ルールなどを記載する。</p>
+<p>今後知らない人が確認するときに、プロジェクト開始時の意向や全体像がわかるので方針が決めやすくなると思います。</p>
+<h3 id="目的背景" style="position:relative;"><a href="#%E7%9B%AE%E7%9A%84%E8%83%8C%E6%99%AF" aria-label="目的背景 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>目的・背景</h3>
+<p>プロジェクトの目的・背景を記載しておく。</p>
+<p>どんな意向があったのかがわかるので、今後知らない人が引き継ぐときに作業方針を決めやすくなります。</p>
+<h3 id="本プロジェクトのスコープ" style="position:relative;"><a href="#%E6%9C%AC%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97" aria-label="本プロジェクトのスコープ permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>本プロジェクトのスコープ</h3>
+<p>全体の登場人物と流れを記載して、このプロジェクトではここまでを見ます。<br>
+という責任範囲を明記する。</p>
+<p>きちんと責任範囲を定義することで、仕事の対応範囲を明確にします</p>
+<h3 id="ソリューション解決方法" style="position:relative;"><a href="#%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95" aria-label="ソリューション解決方法 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ソリューション(解決方法)</h3>
+<p>何を使って何を解決するかを記載する。<br>
+この時点では一旦アイデアでもOKで、もし決まってるならそれを記載する。</p>
+<p>改善方法をざっくりでもリスト化することで、解決したい課題などがわかるので、具体的な手段のたたき台になる</p>
+<h3 id="マスタースケジュール" style="position:relative;"><a href="#%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB" aria-label="マスタースケジュール permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>マスタースケジュール</h3>
+<p>ガントチャート的に全体のおおまかなスケジュールを記載する<br>
+この時点は、おおまかだが、仕様確定のタイミングを決めておくのが大切</p>
+<h3 id="タスク成果物一覧" style="position:relative;"><a href="#%E3%82%BF%E3%82%B9%E3%82%AF%E6%88%90%E6%9E%9C%E7%89%A9%E4%B8%80%E8%A6%A7" aria-label="タスク成果物一覧 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>タスク・成果物一覧</h3>
+<p>作りたいツールからタスク、作らないといけないドキュメントの一覧を記載する。</p>
+<p>タスクの大枠のカテゴリである「要件定義、設計、移行・運用計画、環境構築・開発、テスト」などに各タスク紐づけて書き、それを各書類の利用用途と合わせて書いておくのが良さそうです。</p>
+<h3 id="プロジェクト体制" style="position:relative;"><a href="#%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E4%BD%93%E5%88%B6" aria-label="プロジェクト体制 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>プロジェクト体制</h3>
+<p>チーム単位でどこまで何をやるか。という責任範囲をきめて記載しておく。<br>
+これがないと収集つかなくなるので大切。リーダーまで決めておくとなお良い。</p>
+<p>だれに確認するかなどが分からない時に、チーム単位で責任範囲を確認したりできる。</p>
+<h3 id="プロジェクトのルール" style="position:relative;"><a href="#%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%AB" aria-label="プロジェクトのルール permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>プロジェクトのルール</h3>
+<p>プロジェクト全体をどう進めるかを可視化し、流れを明確化します。</p>
+<ul>
+<li>進捗・課題管理を何でするかの概要。</li>
+<li>定例MTGの参加チーム、スケジュール、議題の概要。</li>
+<li>MTGで課題があった際のチーム連携の流れ、作業方法の流れ</li>
+</ul>
+<p>などを記載しておきます。</p>
+<p>メール件名とかこまごましたのもあるが、必要なものだけかけばOK<br>
+特に定例MTGなどの進捗確認方法が大事。</p>
+<h3 id="品質管理方針" style="position:relative;"><a href="#%E5%93%81%E8%B3%AA%E7%AE%A1%E7%90%86%E6%96%B9%E9%87%9D" aria-label="品質管理方針 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>品質管理方針</h3>
+<p>ドキュメントでもなんでも成果物に対して、誰がチェックを行い、どう品質を保つのか。というルールを書く。<br>
+またどういうものがチェック時にひっかかてるのかを把握すると、全体での認識、共有が深まるのでチェック結果の集計が大切とのこと。</p>
+<p>ここで正確な成果物できることで、プロジェクトの想定がより安全になる</p>
+<h2 id="要件定義" style="position:relative;"><a href="#%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9" aria-label="要件定義 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>要件定義</h2>
+<p>業務のフロー、それを実現するために必要な機能などを書きだし、設計に必要な情報を可視化します。</p>
+<h3 id="業務フロー" style="position:relative;"><a href="#%E6%A5%AD%E5%8B%99%E3%83%95%E3%83%AD%E3%83%BC" aria-label="業務フロー permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>業務フロー</h3>
+<p>実際の業務内容をフローチャート形式にして流れや業務を把握し、課題も記載する。</p>
+<p>業務単位の箱ができ可視化することで、現在と将来の箱の数がの増減などが見え、業務の効率化が見えるし、システムの箱が増えたらコストが増えるのでどうするか。<br>
+などの指標になります。</p>
+<p>業務フローがあっているかは運用チームに確認が必要だが、箱の数の増減でフロー効率化が見込めるか。は自分でチェックができます。</p>
+<p>基本的に現在のフロー、将来のフローとそれぞれ記載します。</p>
+<h4 id="業務フローをもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E6%A5%AD%E5%8B%99%E3%83%95%E3%83%AD%E3%83%BC%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="業務フローをもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>業務フローをもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>業務要件一覧</li>
+<li>機能要件一覧</li>
+<li>総合テストコンディション・シナリオ定義書</li>
+<li>運用作業一覧</li>
+</ul>
+<h3 id="業務用件一覧" style="position:relative;"><a href="#%E6%A5%AD%E5%8B%99%E7%94%A8%E4%BB%B6%E4%B8%80%E8%A6%A7" aria-label="業務用件一覧 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>業務用件一覧</h3>
+<p>業務フローの業務内容詳細を表で書き業務の要件の一覧を作成する。</p>
+<p>フローと揃うことで、流れ＋各業務の概要が整理できます。<br>
+以下のようなものを軸に記載します。</p>
+<ul>
+<li>業務名</li>
+<li>業務概要</li>
+<li>担当</li>
+<li>変更区分(変更、廃止、同じなのか）</li>
+<li>新旧の差異があるならそれも並べて記載</li>
+<li>新フローの業務は機能要件をIDで紐づけたらわかりやすい</li>
+</ul>
+<p>また、業務用件と機能要件など、他資料と関連付けた方が良い場合は、IDなどで紐づけて記載するといいです。</p>
+<h4 id="業務用件一覧をもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E6%A5%AD%E5%8B%99%E7%94%A8%E4%BB%B6%E4%B8%80%E8%A6%A7%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="業務用件一覧をもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>業務用件一覧をもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>業務フロー</li>
+<li>機能要件一覧</li>
+<li>画面遷移図</li>
+<li>総合テストコンディション・シナリオ定義書</li>
+</ul>
+<h3 id="機能要件一覧" style="position:relative;"><a href="#%E6%A9%9F%E8%83%BD%E8%A6%81%E4%BB%B6%E4%B8%80%E8%A6%A7" aria-label="機能要件一覧 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>機能要件一覧</h3>
+<p>業務を実現するために必要な機能をリスト化した資料。<br>
+将来の新業務フローを見ながら実現するために必要な機能をリストで一旦書きだします。</p>
+<p>以下のようにかき分けもするそうです。</p>
+<p>FitGap分析前：ただの必要機能リスト<br>
+FitGap分析後：必要機能リストを実際のツールに寄せて、グルーピングし整理したもの</p>
+<p>「FitGap分析前」では「画面、処理、IF」などおおまかな区分わけまでしておくといいみたいです。</p>
+<p>書きだした後は業務用件一覧の新ツール関連機能と紐づけると、どの業務にどの機能が使われるのかが、わかるようになります。</p>
+<p>※IF=インタフェース＝外部連携のシステムのこと</p>
+<h4 id="機能要件一覧をもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E6%A9%9F%E8%83%BD%E8%A6%81%E4%BB%B6%E4%B8%80%E8%A6%A7%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="機能要件一覧をもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>機能要件一覧をもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>業務用件一覧</li>
+<li>機能配置図</li>
+<li>テーブル一覧</li>
+<li>画面遷移図</li>
+<li>画面項目定義書</li>
+<li>処理概要定義書</li>
+<li>単体テストコンディション定義書</li>
+</ul>
+<h3 id="機能配置図" style="position:relative;"><a href="#%E6%A9%9F%E8%83%BD%E9%85%8D%E7%BD%AE%E5%9B%B3" aria-label="機能配置図 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>機能配置図</h3>
+<p>機能要件を参考にどんなシステム(環境)でどうつながっているのか？フローで記載する。</p>
+<p>例）Web、メールサーバがそれぞれあり、それがどういうシステムと繋がってるのか？など</p>
+<p>これがあることで、システムの全体像がつかめます。<br>
+また、現在と今後がかけると比較もできていいそうです。</p>
+<h4 id="機能配置図をもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E6%A9%9F%E8%83%BD%E9%85%8D%E7%BD%AE%E5%9B%B3%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="機能配置図をもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>機能配置図をもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>テスト計画書</li>
+<li>結合テストコンディション・シナリオ定義書</li>
+</ul>
+<h3 id="インタフェースif一覧" style="position:relative;"><a href="#%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9if%E4%B8%80%E8%A6%A7" aria-label="インタフェースif一覧 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>インタフェース(IF)一覧</h3>
+<p>どんな外部システムとどんなタイミングで連携するのか<br>
+どんなプロトコルで接続する、データ形式でやりとりするのかなどを書きだす。</p>
+<p>このIF一覧をもとにその担当とやりとりするので、システムを漏らさずに記載するのが必要。</p>
+<p>なお、この値を～みたいな細かいことは後の設計で記載するので、システムの概要くらいの内容でいいとのこと。</p>
+<h4 id="インタフェースif一覧をもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9if%E4%B8%80%E8%A6%A7%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="インタフェースif一覧をもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>インタフェース(IF)一覧をもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>IF項目定義書</li>
+<li>機能要件一覧</li>
+</ul>
+<h3 id="ライセンス一覧" style="position:relative;"><a href="#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E4%B8%80%E8%A6%A7" aria-label="ライセンス一覧 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ライセンス一覧</h3>
+<p>外部ツールなど契約が必要なものをまとめる。<br>
+時間がかかる契約もあるので、キチンと記載する。</p>
+<p>開発用のPCとかそういうもの含めて調達しないといけないものを記載する。<br>
+非機能要件も考慮しないといけないとのこと</p>
+<h3 id="テーブル一覧" style="position:relative;"><a href="#%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E4%B8%80%E8%A6%A7" aria-label="テーブル一覧 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>テーブル一覧</h3>
+<p>自分たちが作成、利用するデータベースのテーブルを対象に表で概要を記載する。</p>
+<p>作成、利用しないテーブルはキリがないし、そのテーブルが変更になったら資料も修正しないといけなくなるので書かなくていい。</p>
+<p>正確な情報にすることが大切。</p>
+<h4 id="テーブル一覧をもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E4%B8%80%E8%A6%A7%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="テーブル一覧をもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>テーブル一覧をもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>テーブル項目定義書</li>
+<li>ER図</li>
+</ul>
+<h3 id="er図" style="position:relative;"><a href="#er%E5%9B%B3" aria-label="er図 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ER図</h3>
+<p>データベースのテーブルの関係性を示す図を作成する。<br>
+ER図は以下から押さえておくとOK</p>
+<p>〇：0<br>
+|：1の関係<br>
+三本線：多の関係</p>
+<p>いろんな作成ツールもありますし、さらなる詳細は必要に応じて調べてみてください。</p>
+<h3 id="画面遷移図" style="position:relative;"><a href="#%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3" aria-label="画面遷移図 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>画面遷移図</h3>
+<p>業務用件、機能要件作成後に新フローに沿ってフローで作成する画面の遷移図<br>
+ER図と画面構成図があれば開発ボリュームはある程度図れるとのこと。</p>
+<p>なお、既存の仕組みをそのまま使う場合は作成必須ではない。</p>
+<h3 id="非機能要件" style="position:relative;"><a href="#%E9%9D%9E%E6%A9%9F%E8%83%BD%E8%A6%81%E4%BB%B6" aria-label="非機能要件 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>非機能要件</h3>
+<p>業務フローに必要な機能以外の要件を書きだす。</p>
+<p>通常時、障害時、セキュリティ、メンテナンス、運用、保守などなどかなりたくさんの項目があり、広範囲で想定しないと書けないので、作成難易度はかなり高い印象でした。</p>
+<p>また、これも業務やチームに寄って内容や形式が異なりそうなので、既存フォーマットがある場合はそれに沿って作成。<br>
+ない場合はIPAなどを参考に基礎を作成するのが良さそうな印象でした。</p>
+<div class="concept-box5">システム構築の上流工程強化（非機能要求グレード）  
+<https://www.ipa.go.jp/sec/softwareengineering/std/ent03-b.html>
+<p>※参考ファイル<br>
+「06_活用シート.xls」</p>
+<p>（非機能要求グレード本体（日本語版） の一括DL（zip）をDLすると入ってます）</p>
+</div>設計
+--
+<p>要件定義からツールを作成するための資料を作成します。<br>
+設計書を作成すれば、あとは開発するだけでOK。という状態にすることが理想。</p>
+<h3 id="if項目定義書" style="position:relative;"><a href="#if%E9%A0%85%E7%9B%AE%E5%AE%9A%E7%BE%A9%E6%9B%B8" aria-label="if項目定義書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>IF項目定義書</h3>
+<p>要件定義で決めたIF一覧から、どんなURL？どんな項目？といったものを決める。<br>
+リクエスト、レスポンスの値について記載するが、これはDBのテーブル構造と同じ内容になるはずなので、きちんと決めておくのが良い。</p>
+<h3 id="テーブル項目定義書" style="position:relative;"><a href="#%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E9%A0%85%E7%9B%AE%E5%AE%9A%E7%BE%A9%E6%9B%B8" aria-label="テーブル項目定義書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>テーブル項目定義書</h3>
+<p>要件定義で作成したテーブル一覧のテーブルごとのカラム情報などの詳細を記載する<br>
+既存の物や把握できないものは記載せずに、作成する分だけ記載するという判断でもOK。</p>
+<p>正確な情報を記載することが大切。</p>
+<h4 id="テーブル項目定義書をもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E9%A0%85%E7%9B%AE%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="テーブル項目定義書をもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>テーブル項目定義書をもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>テーブル項目定義書</li>
+<li>コード定義書</li>
+</ul>
+<p>※データ名を数値などで管理する場合にその情報を記載するドキュメント<br>
+※利用ヵ所を把握するために、どのカラムがどのコードIDなのか紐づける</p>
+<h3 id="画面項目定義書" style="position:relative;"><a href="#%E7%94%BB%E9%9D%A2%E9%A0%85%E7%9B%AE%E5%AE%9A%E7%BE%A9%E6%9B%B8" aria-label="画面項目定義書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>画面項目定義書</h3>
+<p>機能要件一覧から作成した画面とその構成、処理、項目の詳細情報を記載する。<br>
+画面の処理や仕様が分かればOKなので、以下のような情報を記載します。</p>
+<ul>
+<li>既存画面がある場合は画面のキャプチャー画像</li>
+<li>新規画面の場合は簡単な図形で画面のパーツ構成が分かるように記載</li>
+<li>画面の遷移元、遷移先</li>
+<li>画面項目（テーブル項目定義書と同じように書く）</li>
+<li>処理概要として、この画面の処理の内容、トリガー、リクエスト、エラーなどを記載</li>
+</ul>
+<p>※処理概要は別ファイルの「処理概要定義書」に記載してもOK</p>
+<p>これを見て画面ごとに構成、処理の内容が分かるようにすることが大切。</p>
+<h4 id="画面項目定義書をもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E7%94%BB%E9%9D%A2%E9%A0%85%E7%9B%AE%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="画面項目定義書をもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>画面項目定義書をもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>
+<p>機能要件一覧</p>
+</li>
+<li>
+<p>単体テストコンディション定義書</p>
+</li>
+<li>
+<p>コード定義書</p>
+</li>
+</ul>
+<p>※データ名を数値などで管理する場合にその情報を記載するドキュメント<br>
+※利用ヵ所を把握するために、どのカラムがどのコードIDなのか紐づける</p>
+<ul>
+<li>処理概要定義書</li>
+</ul>
+<p>※画面項目定義書に書けない処理を記載する</p>
+<h3 id="標準パラメータ定義書" style="position:relative;"><a href="#%E6%A8%99%E6%BA%96%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E5%AE%9A%E7%BE%A9%E6%9B%B8" aria-label="標準パラメータ定義書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>標準パラメータ定義書</h3>
+<p>クラウドシステムやパッケージの機能を使う場合に作成する。<br>
+利用に際して設定した項目の値を記載し、今後のために情報を残しておく。</p>
+<h3 id="処理概要定義書" style="position:relative;"><a href="#%E5%87%A6%E7%90%86%E6%A6%82%E8%A6%81%E5%AE%9A%E7%BE%A9%E6%9B%B8" aria-label="処理概要定義書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>処理概要定義書</h3>
+<p>機能要件一覧のIDと紐づけて、機能詳細を記載する。<br>
+画面項目定義書で処理概要もあるが、どっちかにかけばOK</p>
+<p>分かりやすさ重視。プログラム書くときに仕様がわかりやすいように記載する。<br>
+主に以下が分かれば良さそうです。</p>
+<ul>
+<li>トリガー</li>
+<li>リクエスト、レスポンス</li>
+<li>処理内容</li>
+<li>エラー</li>
+</ul>
+<p>これを見て処理の内容が分かるようにすることが大切。</p>
+<h4 id="処理概要定義書をもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E5%87%A6%E7%90%86%E6%A6%82%E8%A6%81%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="処理概要定義書をもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>処理概要定義書をもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>単体テストコンディション定義書</li>
+<li>機能要件一覧</li>
+<li>コード定義書</li>
+</ul>
+<p>※データ名を数値などで管理する場合にその情報を記載するドキュメント<br>
+※利用ヵ所を把握するために、どのカラムがどのコードIDなのか紐づける</p>
+<h3 id="コード定義書" style="position:relative;"><a href="#%E3%82%B3%E3%83%BC%E3%83%89%E5%AE%9A%E7%BE%A9%E6%9B%B8" aria-label="コード定義書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>コード定義書</h3>
+<p>データベースやプログラム内の値をコードで管理する場合に記載する。<br>
+データをコードで管理する事で名前の変更に耐えれるが、ぱっと見わからなくなるので設計書にかいておく</p>
+<p>使われる場所がわからないといけないので、テーブル項目定義書、画面項目定義書でIDでつながるように紐づけて書いてあげるのも大事。</p>
+<h4 id="コード定義書をもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E3%82%B3%E3%83%BC%E3%83%89%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="コード定義書をもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>コード定義書をもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>テーブル項目定義書</li>
+<li>画面項目定義書</li>
+</ul>
+<h3 id="環境設定定義書" style="position:relative;"><a href="#%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A%E5%AE%9A%E7%BE%A9%E6%9B%B8" aria-label="環境設定定義書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>環境設定定義書</h3>
+<p>インフラ情報を管理するために必要な情報を記載する。<br>
+環境構築時に設定した値を記載し、今後確認できるようにしておく。</p>
+<h2 id="テスト" style="position:relative;"><a href="#%E3%83%86%E3%82%B9%E3%83%88" aria-label="テスト permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>テスト</h2>
+<p>設計書から作成したツールのテストをする場合に必要なドキュメント。<br>
+ポイントはプログラムからつくるのではなく、ドキュメントから作成するという点。<br>
+ドキュメントにプログラムを合わせていくのが大切です。</p>
+<h3 id="テスト計画書" style="position:relative;"><a href="#%E3%83%86%E3%82%B9%E3%83%88%E8%A8%88%E7%94%BB%E6%9B%B8" aria-label="テスト計画書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>テスト計画書</h3>
+<p>テスト全体の概要などを記載します。<br>
+主に以下の内容を記載します。</p>
+<h4 id="テストスコープの定義" style="position:relative;"><a href="#%E3%83%86%E3%82%B9%E3%83%88%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97%E3%81%AE%E5%AE%9A%E7%BE%A9" aria-label="テストスコープの定義 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>テストスコープの定義</h4>
+<p>機能配置図から機能ごとにどんなテストをするのか？を記載します。<br>
+フローチャートで単体、結合、統合などを色分けで書くとわかりやすいです。</p>
+<p>なお、テストは以下のようなものがあります。</p>
+<ul>
+<li>単体テスト</li>
+</ul>
+<p>設計書に定義した機能がすべて正常に実装されていることを確認する。<br>
+設計書に定義した処理の全パターンを網羅すること</p>
+<ul>
+<li>結合テスト</li>
+</ul>
+<p>IFなど連携先のINとOUTにある機能が、互いに整合のとれた設計になっていることを確認する<br>
+IF定義書に定義したデータパターンを流通するテストを実施</p>
+<ul>
+<li>総合テスト</li>
+</ul>
+<p>業務フロー、および業務一覧に定義した業務がすべて行えることを確認する</p>
+<ul>
+<li>受入テスト</li>
+</ul>
+<p>総合テストと同じようなことを依頼元で行う</p>
+<h4 id="開始条件と完了条件" style="position:relative;"><a href="#%E9%96%8B%E5%A7%8B%E6%9D%A1%E4%BB%B6%E3%81%A8%E5%AE%8C%E4%BA%86%E6%9D%A1%E4%BB%B6" aria-label="開始条件と完了条件 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>開始条件と完了条件</h4>
+<p>単体テスト、結合テスト、統合テスト、受入テストの開始条件と完了条件を表で記載する。</p>
+<p>例えば単体テストの条件なら以下のようなものがあります。</p>
+<ul>
+<li>開始条件：全ての開発が終わっている</li>
+<li>完了条件：定義した条件をすべてクリアした、不具合の発生頻度が収束した。</li>
+</ul>
+<p>基本的に前段階の作業が完全に終わっている、定義した条件をすべてクリアしている、ある程度の期間利用し、不具合の発生件数が収束してきている。というのが基本的な条件になると思います。</p>
+<h4 id="テスト実施スケジュール" style="position:relative;"><a href="#%E3%83%86%E3%82%B9%E3%83%88%E5%AE%9F%E6%96%BD%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB" aria-label="テスト実施スケジュール permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>テスト実施スケジュール</h4>
+<p>テスト期間とその間の移行リハーサルのスケジュールを記載する。<br>
+各フェーズでの重要な条件となることの完了予定も記載しておくのが大事。</p>
+<p>また移行リハーサルを統合テスト前に行う。<br>
+移行とはデータの移行など旧→新へ移行するときの作業のこと。</p>
+<h4 id="障害管理プロセス" style="position:relative;"><a href="#%E9%9A%9C%E5%AE%B3%E7%AE%A1%E7%90%86%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9" aria-label="障害管理プロセス permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>障害管理プロセス</h4>
+<p>障害が発生した際の担当の流れを記載する。<br>
+誰が何をするのか？がフローでわかればOK。</p>
+<h4 id="テスト実施体制" style="position:relative;"><a href="#%E3%83%86%E3%82%B9%E3%83%88%E5%AE%9F%E6%96%BD%E4%BD%93%E5%88%B6" aria-label="テスト実施体制 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>テスト実施体制</h4>
+<p>今回のテストにかかわるチームの関係性が分かるように記載する。</p>
+<h4 id="テスト期間中の情報連携" style="position:relative;"><a href="#%E3%83%86%E3%82%B9%E3%83%88%E6%9C%9F%E9%96%93%E4%B8%AD%E3%81%AE%E6%83%85%E5%A0%B1%E9%80%A3%E6%90%BA" aria-label="テスト期間中の情報連携 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>テスト期間中の情報連携</h4>
+<p>テスト期間中の定例MTGなどどういったサイクル、議題、目標で行うのかを記載しておく</p>
+<h3 id="単体テストコンディション定義書" style="position:relative;"><a href="#%E5%8D%98%E4%BD%93%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%AE%9A%E7%BE%A9%E6%9B%B8" aria-label="単体テストコンディション定義書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>単体テストコンディション定義書</h3>
+<p>機能単位のテストの条件を書き出し作業用のリストを作成する。<br>
+機能要件一覧、画面項目定義書、処理概要定義書を軸に項目、処理機能ごとに記載する。</p>
+<ul>
+<li>通常？異常？</li>
+<li>必須？必須じゃない？</li>
+<li>登録、削除、更新はできるか</li>
+<li>テストに使うデータ</li>
+</ul>
+<p>など各処理とテストデータを記載していきます。<br>
+またテスト時の入力値は最小値と最大値や、機能の条件をが満たせるのが良い。</p>
+<p>なお、インタフェース(外部連携)機能は結合テストでするので、ここはあくまで今見てるツールの動作だけでいいOKです。<br>
+IFが完成してない場合は、スタブ(値だけ返す仮のインタフェース)を簡単に作成しておく</p>
+<p>また最大のポイントはプログラムをみて設計書をつくらないこと。<br>
+設計書から作成し、設計書どおりに動いてるか複数回数日に分けて確認する。</p>
+<h4 id="単体テストコンディション定義書をもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E5%8D%98%E4%BD%93%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="単体テストコンディション定義書をもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>単体テストコンディション定義書をもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>機能要件一覧</li>
+<li>画面項目定義書</li>
+<li>処理概要定義書</li>
+</ul>
+<h3 id="結合テストコンディションシナリオ定義書" style="position:relative;"><a href="#%E7%B5%90%E5%90%88%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%AE%9A%E7%BE%A9%E6%9B%B8" aria-label="結合テストコンディションシナリオ定義書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>結合テストコンディション・シナリオ定義書</h3>
+<p>単体テストと違い、複数の処理を組み合わせたテストです。<br>
+そのため複数項目を経てOKとなることが多いです。</p>
+<p>テストを行うためのテストシナリオ(操作手順ごとにテスト項目を並べたもの)を機能配置図、機能要件一覧を基準に作成します。</p>
+<p>コンディションシートで項目を網羅的に書きだし、シナリオシートでそれを体系的記載します。</p>
+<p>1つのシナリオで全部しようとすると書けないので、1つずつ書いて、いくつかシナリオを分けて作成します。</p>
+<p>入力値などサンプルデータの作り方は単体テストと同じ感じです。</p>
+<h4 id="結合テストコンディションシナリオ定義書をもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E7%B5%90%E5%90%88%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="結合テストコンディションシナリオ定義書をもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>結合テストコンディション・シナリオ定義書をもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>機能配置図</li>
+<li>機能要件一覧</li>
+</ul>
+<h3 id="総合テストコンディションシナリオ定義書" style="position:relative;"><a href="#%E7%B7%8F%E5%90%88%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%AE%9A%E7%BE%A9%E6%9B%B8" aria-label="総合テストコンディションシナリオ定義書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>総合テストコンディション・シナリオ定義書</h3>
+<p>将来の業務フロー全体を通すテスト、すべての業務用件が実施できるか確認する<br>
+業務フローの数だけ、シナリオもできます。</p>
+<p>気付けないことがあるので、データは本番に近いのが良いです。<br>
+また総合テストでプログラムのバグがでるのはかなりまずいことなので、それがないように前段階のテストはしっかりしておきたい。</p>
+<p>出るべきバグは設計や仕様で漏れていたそもそも想定されていないこと。</p>
+<h4 id="総合テストコンディションシナリオ定義書をもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E7%B7%8F%E5%90%88%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%AE%9A%E7%BE%A9%E6%9B%B8%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="総合テストコンディションシナリオ定義書をもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>総合テストコンディション・シナリオ定義書をもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>業務用件一覧</li>
+<li>業務フロー</li>
+</ul>
+<h3 id="障害一覧" style="position:relative;"><a href="#%E9%9A%9C%E5%AE%B3%E4%B8%80%E8%A6%A7" aria-label="障害一覧 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>障害一覧</h3>
+<p>テストの結果を表でまとめて記載する。<br>
+まとめることで一日あたりの障害数が減ってるかみれたりするし、書く人、直す人が作業しやすくなる。</p>
+<ul>
+<li>どのフェーズ？(単体？結合？統合？)</li>
+<li>事象</li>
+<li>どの段階？(要件?設計?など)</li>
+<li>原因</li>
+<li>解決方法</li>
+</ul>
+<p>などを書いておくと良いです。</p>
+<h4 id="障害一覧をもとに作られるまたは紐づく主な資料" style="position:relative;"><a href="#%E9%9A%9C%E5%AE%B3%E4%B8%80%E8%A6%A7%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%82%8B%E3%81%BE%E3%81%9F%E3%81%AF%E7%B4%90%E3%81%A5%E3%81%8F%E4%B8%BB%E3%81%AA%E8%B3%87%E6%96%99" aria-label="障害一覧をもとに作られるまたは紐づく主な資料 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>障害一覧をもとに作られる、または紐づく主な資料</h4>
+<ul>
+<li>単体テストコンディション定義書</li>
+<li>結合テストコンディション・シナリオ定義書</li>
+<li>総合テストコンディション・シナリオ定義書</li>
+</ul>
+<h2 id="移行計画" style="position:relative;"><a href="#%E7%A7%BB%E8%A1%8C%E8%A8%88%E7%94%BB" aria-label="移行計画 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>移行計画</h2>
+<p>旧システムから新システムに移行する。<br>
+または新システムを導入する方法を正確に記載する。</p>
+<h3 id="移行計画書" style="position:relative;"><a href="#%E7%A7%BB%E8%A1%8C%E8%A8%88%E7%94%BB%E6%9B%B8" aria-label="移行計画書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>移行計画書</h3>
+<p>旧システムから新システムに移行、または新システムを導入する方法の計画書。</p>
+<p>主に「業務、システム、データ」のカテゴリで流れ、移行方法、懸念事項を把握しながら記載します。</p>
+<p>また新規システムだけならいいが、旧システムが絡む場合、移行するデータの選別、仕様を把握+データの不整合が起こらないように慎重に決めないといけないので、<br>
+かなり慎重に計画を作成する必要があるので、移行手順を作成し、総合テスト前に移行リハーサルを行うことは必須になります。</p>
+<p>移行計画書として作成する主な内容は以下の通りです。</p>
+<h4 id="移行方針の概要" style="position:relative;"><a href="#%E7%A7%BB%E8%A1%8C%E6%96%B9%E9%87%9D%E3%81%AE%E6%A6%82%E8%A6%81" aria-label="移行方針の概要 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>移行方針の概要</h4>
+<p>業務、システム、データで何をどうして、どう移行するのかの概要<br>
+業務上やデータの整合性を保てるような方針にする。</p>
+<h4 id="移行対象データ一覧" style="position:relative;"><a href="#%E7%A7%BB%E8%A1%8C%E5%AF%BE%E8%B1%A1%E3%83%87%E3%83%BC%E3%82%BF%E4%B8%80%E8%A6%A7" aria-label="移行対象データ一覧 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>移行対象データ一覧</h4>
+<p>移行すべきデータをすべて確認し、移行方針、移行方法を記載する</p>
+<h4 id="移行スケジュール" style="position:relative;"><a href="#%E7%A7%BB%E8%A1%8C%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB" aria-label="移行スケジュール permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>移行スケジュール</h4>
+<p>移行全体のスケジュール。</p>
+<p>結合テストの段階で調査、手順書の作成を行い、総合テストの前に移行リハーサルをするようなスケジュールが良い</p>
+<h4 id="移行体制" style="position:relative;"><a href="#%E7%A7%BB%E8%A1%8C%E4%BD%93%E5%88%B6" aria-label="移行体制 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>移行体制</h4>
+<p>移行にかかわるチームを記載する</p>
+<h3 id="移行手順書" style="position:relative;"><a href="#%E7%A7%BB%E8%A1%8C%E6%89%8B%E9%A0%86%E6%9B%B8" aria-label="移行手順書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>移行手順書</h3>
+<p>移行計画を実行するために、いつまでに、どういうやりかたで進めるのかを見ただけでできる状態にまとめておく。</p>
+<p>旧システムから引き継いで移行する場合は特に複雑化するので、総合テストの前に本番と同じ移行作業をリハーサルしながら作成する。</p>
+<p>もっといえば何時何分～何時何分でこの作業をおこなう。というのも書いておいた方が良いみたいです。</p>
+<p>テストコンディションと同じように誰が何をしたがわかるようにリストで作成する</p>
+<h2 id="運用計画" style="position:relative;"><a href="#%E9%81%8B%E7%94%A8%E8%A8%88%E7%94%BB" aria-label="運用計画 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>運用計画</h2>
+<p>システム完成後の運用の作業の一覧やマニュアルを作成する</p>
+<h3 id="運用作業一覧" style="position:relative;"><a href="#%E9%81%8B%E7%94%A8%E4%BD%9C%E6%A5%AD%E4%B8%80%E8%A6%A7" aria-label="運用作業一覧 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>運用作業一覧</h3>
+<p>システム完成後の運用の作業の一覧を記載する。<br>
+例えば、ユーザ登録、削除、障害対応、仕様変更(追加開発)などがあり、項目としては作業項目、頻度、作業概要などを表で記載する。</p>
+<h3 id="運用作業マニュアル" style="position:relative;"><a href="#%E9%81%8B%E7%94%A8%E4%BD%9C%E6%A5%AD%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB" aria-label="運用作業マニュアル permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>運用作業マニュアル</h3>
+<p>運用の作業一覧の業務を見ただけでできるようにする。</p>
+<p>定期作業は特に開発できない人たちにやってもらうこともあるので、詳細に手順を記載しておく必要があります。</p>
+<p>ドキュメントをみて運用作業、ドキュメント更新ということを徹底する。</p>
+<p>なお、運用という枠に開発の改修なども入る場合もあるそうなので、その場合は開発が仕様を把握できるようにドキュメント管理を行うといいと思います。</p>
+<h3 id="障害報告書" style="position:relative;"><a href="#%E9%9A%9C%E5%AE%B3%E5%A0%B1%E5%91%8A%E6%9B%B8" aria-label="障害報告書 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>障害報告書</h3>
+<p>障害が起こったときにその原因→解決方法をを記載していく。</p>
+<p>難しい+スピードが必要な作業で限られた人しかできないので、原因→解決方法を簡潔に記載しておくことで、今後誰でもできるように、または解決しやすくする。</p>
+<p>主に以下の内容を残すと良さそうです。</p>
+<ul>
+<li>発生事象</li>
+<li>発生原因</li>
+<li>影響範囲</li>
+<li>暫定対応</li>
+<li>根本的な原因</li>
+<li>本格対応</li>
+</ul>
+<h2 id="プロジェクト管理" style="position:relative;"><a href="#%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E7%AE%A1%E7%90%86" aria-label="プロジェクト管理 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>プロジェクト管理</h2>
+<p>プロジェクトを管理するための方法、ドキュメントを作成する。</p>
+<h3 id="wbs" style="position:relative;"><a href="#wbs" aria-label="wbs permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>WBS</h3>
+<p>全部のタスクについて、だれが何をいつからいつで行うのか+進捗がわかるものように管理しておくことをWBSという。</p>
+<p>案件が始まるときに作成し、要件定義が決まったらブラッシュアップするのがいいみたいです。</p>
+<p>チームによってさまざまだと思うが、ガントチャート的なフォーマットが多いと思います。Backlogなどのツールもあるのでそういったものを使うケースもあると思います。</p>
+<h3 id="todo課題一覧" style="position:relative;"><a href="#todo%E8%AA%B2%E9%A1%8C%E4%B8%80%E8%A6%A7" aria-label="todo課題一覧 permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>TODO・課題一覧</h3>
+<p>WBSの漏れなどの問題、誰かに聞かないとわからないことなどが起こったらそれ課題として表に記載していく。</p>
+<p>TODO(やればおわること)や課題(予想されるリスク、懸念)を記載し事前に認識しておくことで事故を防ぎます。</p>
+<h3 id="レビューシート" style="position:relative;"><a href="#%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%88" aria-label="レビューシート permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>レビューシート</h3>
+<p>成果物のレビューを表で残す。<br>
+成果物のチェックレビューを残すことで、間違いが多いものなどの傾向を知ることができる</p>
+<h2 id="さいごに" style="position:relative;"><a href="#%E3%81%95%E3%81%84%E3%81%94%E3%81%AB" aria-label="さいごに permalink" class="toc-icon before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>さいごに</h2>
+<p>学んだ感想としては、この書類があり、きちんと見る方法、更新方法を教えていければ、仕様の引継ぎ把握は格段にしやすくなるのではないかと感じました。</p>
+<p>一方でドキュメントの量がとても多く、整合性を保つ難しさも感じたので、プロジェクトチーム全体でどれだけ意識をたかめてドキュメントの見方の説明、作成、更新していけるか。が非常に難しく、大変なことだと思いました。</p>
+<p>ひとりでは作成できないので、繋ぎ、まとめ役、各専門家の連携は必要だと思います。</p>
+<p>またどちらにしてもプログラム内にはちゃんと実装背景、理由などコードから読み取れないことをコメントで残しておくことも必須だと感じました。</p>
+<div class="balloon">
+  <div class="icon"></div>
+  <div class="talk">
+率直に量が多い！！大変だ！！<br>
+開発より時間をかけるというのもうなずけます。<br><br>
+目次だけでも見るの大変ですが、全体をつかみたいときは目次見てください。<br>
+今回勉強して一番響いた言葉は  
+「プログラムからドキュメントを作成しない。ドキュメントにプログラムをあわせる」  
+でした。<br><br>
+本当大事。
+  </div>
+</div></div></div></div><div class="index-module--sideFrame--4e717"><div><div class="profile-module--profileBox--9f04d"><div><img class="profile-module--profileIcon--39843" src="/static/profile_img-8f03c49ada15897ada862f60549be989.jpg" alt="profile_icon"/></div><div class="profile-module--userName--6e50e"> <!-- -->taka</div><div class="profile-module--userJob--e60b2"> <!-- -->プログラマー</div><div class="profile-module--profileItem--ef5b3"> <!-- -->
+    いつでも転職希望の 業務経験6年目(2022時点)のプログラマーのブログです。
+
+希望条件は手取り30万以上、基本残業なし、ある程度保守運用が管理されていて、ある程度精神的な安全がある職場で働きたいです。 経験言語はHTML、CSS、javascript、PHP、MySQL、Docker、Vuejs、Laravel
+
+経験3年目でこのブログをはじめてしばらく放置してましたが、なんとか見た目平均年収以上は稼げるようになりました。
+    </div></div></div><div><div class="tags-module--tagsBox--b394f"><div class="tags-module--title--2057e">🏷️Tags<span class="tags-module--aTotalCnt--c4f2f"> (<!-- -->32<!-- -->) </span></div><ul><li><a href="/tags/docker/">Docker<!-- --> (<!-- -->9<!-- -->)</a></li><li><a href="/tags/git-git-hub/">Git/GitHub<!-- --> (<!-- -->3<!-- -->)</a></li><li><a href="/tags/google-ad-sence/">Google AdSence<!-- --> (<!-- -->1<!-- -->)</a></li><li><a href="/tags/java-script/">JavaScript<!-- --> (<!-- -->1<!-- -->)</a></li><li><a href="/tags/laravel/">Laravel<!-- --> (<!-- -->2<!-- -->)</a></li><li><a href="/tags/my-sql-maria-db/">MySQL(MariaDB)<!-- --> (<!-- -->1<!-- -->)</a></li><li><a href="/tags/php/">PHP<!-- --> (<!-- -->3<!-- -->)</a></li><li><a href="/tags/vim/">Vim<!-- --> (<!-- -->1<!-- -->)</a></li><li><a href="/tags/word-press/">WordPress<!-- --> (<!-- -->5<!-- -->)</a></li><li><a href="/tags/コマンド/">コマンド<!-- --> (<!-- -->1<!-- -->)</a></li><li><a href="/tags/ブログのマニュアル/">ブログのマニュアル<!-- --> (<!-- -->1<!-- -->)</a></li><li><a href="/tags/プロジェクト管理/">プロジェクト管理<!-- --> (<!-- -->1<!-- -->)</a></li><li><a href="/tags/未分類/">未分類<!-- --> (<!-- -->1<!-- -->)</a></li><li><a href="/tags/正規表現/">正規表現<!-- --> (<!-- -->2<!-- -->)</a></li></ul></div></div><main><div></div></main></div></div><footer><div>Copyright © <!-- -->2020<!-- --> - <!-- -->2023<!-- --> <!-- -->BlogTitle<!-- --> </div></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/posts/manage_docs/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+          <script
+            id="gatsby-chunk-mapping"
+          >
+            window.___chunkMapping="{\"app\":[\"/app-1d1d390f4a7d1edcef5f.js\"],\"component---src-pages-404-js\":[\"/component---src-pages-404-js-5a79b1d21317acc67f24.js\"],\"component---src-pages-about-js\":[\"/component---src-pages-about-js-1c6fe451fbb0ad988d94.js\"],\"component---src-pages-paginate-js\":[\"/component---src-pages-paginate-js-44f8df17f95fad6e4814.js\"],\"component---src-pages-profile-js\":[\"/component---src-pages-profile-js-30cc08158c5505eb35cd.js\"],\"component---src-pages-side-tag-list-js\":[],\"component---src-pages-twitter-timeline-js\":[\"/component---src-pages-twitter-timeline-js-c5120d5343c8f6dc02fa.js\"],\"component---src-pages-using-typescript-tsx\":[\"/component---src-pages-using-typescript-tsx-754899cfde7ff3e010d4.js\"],\"component---src-templates-blog-post-js\":[\"/component---src-templates-blog-post-js-18bd80ea95836041e993.js\"],\"component---src-templates-index-js\":[\"/component---src-templates-index-js-24d548aee765c5970573.js\"],\"component---src-templates-tags-js\":[\"/component---src-templates-tags-js-a79f57f88feb491972c8.js\"]}";
+          </script>
+        <script>window.___webpackCompilationHash="5f8cfc46bc169d2a09c0";</script><script src="/webpack-runtime-241373dc2bcd40440924.js" async></script><script src="/framework-195f9a31e5a4e6cebf51.js" async></script><script src="/app-1d1d390f4a7d1edcef5f.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
