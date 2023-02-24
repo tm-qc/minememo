@@ -120,7 +120,7 @@ h2~h4で書かれた項目を自動で目次として掲載します。
 
 ## コードブロック
 
-```javasctipt:title=javasctipt
+```javascript:title=javascript
 
   console.log('');
 
@@ -128,7 +128,7 @@ h2~h4で書かれた項目を自動で目次として掲載します。
 
 ```
 
-\```javasctipt:title=javasctipt
+\```javasctrpt:title=javasctrpt
 
 console.log('');
 
