@@ -11,6 +11,7 @@
     "@fontsource/merriweather": "^4.5.14",
     "@fontsource/montserrat": "^4.5.14",
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@isamrish/gatsby-plugin-google-adsense": "^1.2.0",
     "gatsby": "^5.5.0",
     "gatsby-awesome-pagination": "^0.3.8",
     "gatsby-plugin-feed": "^5.5.0",
