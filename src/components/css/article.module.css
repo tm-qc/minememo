@@ -13,10 +13,10 @@ figcaption{
   margin-top: 8px;
 }
 
-.articleFrame{
+/* .articleFrame{
   margin: 32px;
   max-width: 760px;
-}
+} */
 
 .date{
   text-align: right;
@@ -227,10 +227,17 @@ th,td{
 
 /* media query レスポンシブ */
 @media(max-width: 1110px) {
-  .articleFrame{
-    max-width: 100%;
-  }
   .articleBody {
     max-width: 100%;
   }
 }
+
+@media(max-width: 500px) {
+  .articleBox{
+    padding: 16px 8px;
+  }
+}
+
+
+
+

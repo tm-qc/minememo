@@ -6,6 +6,7 @@
 .articleFrame {
   min-width: 770px;
   max-width: 960px;
+  margin: 32px;
 }
 
 .articleBox {
@@ -65,5 +66,34 @@ img{
 
   img{
     width: 100px;
+  }
+}
+
+/* media query レスポンシブ */
+@media(max-width: 500px) {
+  .articleFrame{
+    min-width: 440px;
+    margin: -18px;
+    justify-content: space-between;
+  }
+
+  img{
+    width: 100px;
+  }
+}
+
+@media(max-width: 390px) {
+  .articleFrame{
+    min-width: 330px;
+    margin: -12px;
+  }
+
+  img{
+    width: 70px;
+  }
+
+  .articleBox{
+    padding: 8px 4px;
+    font-size: 8px;
   }
 }
