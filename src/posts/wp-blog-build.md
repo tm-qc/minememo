@@ -380,7 +380,7 @@ https://minememo.work/minememo/taka が表示
 <div class="boxparts ref">
   <div class="title"></div>
 
-  <a href="https://minememo.work/permalink-setting" target="_blank">【WordPress】パーマリンク設定</a>
+  <a href="../permalink-setting" target="_blank">【WordPress】パーマリンク設定</a>
 </div>
 
 独自ドメイン設定
@@ -394,7 +394,7 @@ https://minememo.work/minememo/taka が表示
 <div class="boxparts ref">
   <div class="title"></div>
 
-  <a href="https://minememo.work/original_domain_wp" target="_blank">【WordPress】独自ドメイン設定</a>
+  <a href="../original_domain_wp" target="_blank">【WordPress】独自ドメイン設定</a>
 </div>
 
 独自SSL（無料）
@@ -410,7 +410,7 @@ Google的には必須的な項目になるため、設定しておいたほう�
 <div class="boxparts ref">
   <div class="title"></div>
 
-  <a href="https://minememo.work/ssl_setting_wp" target="_blank">【WordPress】ロリポップ独自SSL（無料）設定</a>
+  <a href="../ssl_setting_wp" target="_blank">【WordPress】ロリポップ独自SSL（無料）設定</a>
 </div>
 
 301リダイレクト
@@ -422,7 +422,7 @@ Google的には必須的な項目になるため、設定しておいたほう�
 <div class="boxparts ref">
   <div class="title"></div>
 
-  <a href="https://minememo.work/redirect-301-wp" target="_blank">WordPress
+  <a href="../redirect-301-wp" target="_blank">WordPress
 【WordPress】301リダイレクトの設定</a>
 </div>
 
@@ -460,7 +460,7 @@ Goolgle Adsenseで収益化するためにはURLの登録、紐づけが必要�
 
   <a href="https://support.google.com/adsense/answer/10162?hl=ja" target="_blank">AdSense へのお申し込み</a>
 
-  <a href="https://minememo.work/ads-txt-set" target="_blank">【Google AdSence】アドセンス ads.txt 設置方法</a>
+  <a href="../ads-txt-set" target="_blank">【Google AdSence】アドセンス ads.txt 設置方法</a>
 </div>
 
 

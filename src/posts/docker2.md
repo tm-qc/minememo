@@ -28,7 +28,7 @@ Dockerのインストールが終わってない方は、一回目の記事を�
 <div class="boxparts ref">
   <div class="title"></div>
   
-[【Docker】#1 はじめに+Dockerとは+Docker Desktopインストール](https://minememo.work/docker1)
+[【Docker】#1 はじめに+Dockerとは+Docker Desktopインストール](../docker1)
 </div>
 
 作成する環境は以下の通りです。

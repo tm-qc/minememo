@@ -28,12 +28,12 @@ tags: ["Docker"] #タグ カテゴリとして使ってもOK
 <div class="boxparts ref">
   <div class="title"></div>
   
-[【Docker】#1 はじめに+Dockerとは+Docker Desktopインストール](https://minememo.work/docker1)  
-[【Docker】#2 ローカル(ホスト)に作業フォルダを作成](https://minememo.work/docker2)  
-[【Docker】#3 Dockerfile+docker-compose.yml+各設定ファイルの設置](https://minememo.work/docker3)  
-[【Docker】#4 Laravelをコマンドでインストール](https://minememo.work/docker4)  
-[【Docker】#5 dockerでコンテナ(機能)を起動+Laravel表示確認](https://minememo.work/docker5)  
-[【Docker】#6 LaravelのDB設定、確認](https://minememo.work/docker6)
+[【Docker】#1 はじめに+Dockerとは+Docker Desktopインストール](../docker1)  
+[【Docker】#2 ローカル(ホスト)に作業フォルダを作成](../docker2)  
+[【Docker】#3 Dockerfile+docker-compose.yml+各設定ファイルの設置](../docker3)  
+[【Docker】#4 Laravelをコマンドでインストール](../docker4)  
+[【Docker】#5 dockerでコンテナ(機能)を起動+Laravel表示確認](../docker5)  
+[【Docker】#6 LaravelのDB設定、確認](../docker6)
 
 </div>
 
@@ -122,7 +122,7 @@ http://localhost:8080/
 
 分からない場合は前回の記事を参考にしてください。
 
-[docker-compose.ymlからコンテナを起動](https://minememo.work/docker5#1docker-composeyml)
+[docker-compose.ymlからコンテナを起動](../docker5#1docker-composeyml)
 </div>
 
 <div class="boxparts caution">

@@ -32,7 +32,7 @@ tags: ["Git/GitHub"] #タグ カテゴリとして使ってもOK
   <div class="title"></div>
   
   Gitでバージョン管理を始めるときに最初に行うコマンドについては以下を参照してください。<br>
-  [【Git/GitHub】Gitでバージョン管理を始めるときに最初にするコマンド](https://minememo.work/git-manage01)
+  [【Git/GitHub】Gitでバージョン管理を始めるときに最初にするコマンド](../
 </div>
 
 ### 1. 現在の状態を確認し把握する
@@ -371,7 +371,7 @@ git push origin ブランチ名
 「git remote add origin リモートリポジトリのURL​」  
 でリモートリポジトリのURLをoriginというリモート名で紐づけるのですが、originはGitのデフォルト値のようで一般的にoriginになっていることが多いようです。
 
-[【Git/GitHub】Gitでバージョン管理を始めるときに最初にするコマンド](https://minememo.work/git-manage01#4_originURL)
+[【Git/GitHub】Gitでバージョン管理を始めるときに最初にするコマンド](../git-manage01#4_originURL)
 
 なお、リモート名の確認は 「git remote」で確認できます。
 </div>

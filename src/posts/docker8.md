@@ -31,13 +31,13 @@ tags: ["Docker"] #タグ カテゴリとして使ってもOK
 <div class="boxparts ref">
   <div class="title"></div>
   
-[【Docker】#1 はじめに+Dockerとは+Docker Desktopインストール](https://minememo.work/docker1)  
-[【Docker】#2 ローカル(ホスト)に作業フォルダを作成](https://minememo.work/docker2)  
-[【Docker】#3 Dockerfile+docker-compose.yml+各設定ファイルの設置](https://minememo.work/docker3)  
-[【Docker】#4 Laravelをコマンドでインストール](https://minememo.work/docker4)  
-[【Docker】#5 dockerでコンテナ(機能)を起動+Laravel表示確認](https://minememo.work/docker5)  
-[【Docker】#6 LaravelのDB設定、確認](https://minememo.work/docker6)  
-[【Docker】#7 phpMyAdmin表示確認](https://minememo.work/docker7)
+[【Docker】#1 はじめに+Dockerとは+Docker Desktopインストール](../docker1)  
+[【Docker】#2 ローカル(ホスト)に作業フォルダを作成](../docker2)  
+[【Docker】#3 Dockerfile+docker-compose.yml+各設定ファイルの設置](../docker3)  
+[【Docker】#4 Laravelをコマンドでインストール](../docker4)  
+[【Docker】#5 dockerでコンテナ(機能)を起動+Laravel表示確認](../docker5)  
+[【Docker】#6 LaravelのDB設定、確認](../docker6)
+[【Docker】#7 phpMyAdmin表示確認](../docker7)
 
 </div>
 
@@ -117,7 +117,7 @@ nginx_mysql_laravel/	　　　　TOPフォルダ。名前はコンテナ起動�
   <div class="title"></div>
 分からない場合は前回の記事を参考にしてください。
 
-[docker-compose.ymlからコンテナを起動](https://minememo.work/docker5#1docker-composeyml)
+[docker-compose.ymlからコンテナを起動](../docker5#1docker-composeyml)
 
 </div>
 
@@ -230,7 +230,7 @@ docker compose exec php php artisan -v
 ---------------------
 
 phpMyAdminのTOPページ(HOME)でバージョン情報を確認できます。  
-アクセス方法は「[【Docker】#7 phpMyAdmin表示確認](https://minememo.work/docker7)」を参考にしてください。
+アクセス方法は「[【Docker】#7 phpMyAdmin表示確認](../docker7)」を参考にしてください。
 
 latestなので、最新が入るようになっています。
 

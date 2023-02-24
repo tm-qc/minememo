@@ -27,9 +27,9 @@ Dockerfileや各種設定ファイル、そもそもDockerのインストール�
 <div class="boxparts ref">
   <div class="title"></div>
   
-[【Docker】#1 はじめに+Dockerとは+Docker Desktopインストール](https://minememo.work/docker1)  
-[【Docker】#2 ローカル(ホスト)に作業フォルダを作成](https://minememo.work/docker2)  
-[【Docker】#3 Dockerfile+docker-compose.yml+各設定ファイルの設置](https://minememo.work/docker3)
+[【Docker】#1 はじめに+Dockerとは+Docker Desktopインストール](../docker1)  
+[【Docker】#2 ローカル(ホスト)に作業フォルダを作成](../docker2)  
+[【Docker】#3 Dockerfile+docker-compose.yml+各設定ファイルの設置](../docker3)
 </div>
 
 作成する環境は以下の通りです。

@@ -37,14 +37,14 @@ Dockerで個人的によく使うコマンドを目的別に記載します。
 <div class="boxparts ref">
   <div class="title"></div>
   
-[【Docker】#1 はじめに+Dockerとは+Docker Desktopインストール](https://minememo.work/docker1)  
-[【Docker】#2 ローカル(ホスト)に作業フォルダを作成](https://minememo.work/docker2)  
-[【Docker】#3 Dockerfile+docker-compose.yml+各設定ファイルの設置](https://minememo.work/docker3)  
-[【Docker】#4 Laravelをコマンドでインストール](https://minememo.work/docker4)  
-[【Docker】#5 dockerでコンテナ(機能)を起動+Laravel表示確認](https://minememo.work/docker5)  
-[【Docker】#6 LaravelのDB設定、確認](https://minememo.work/docker6)  
-[【Docker】#7 phpMyAdmin表示確認](https://minememo.work/docker7)  
-[【Docker】#8 できてる環境の確認](https://minememo.work/docker8)
+[【Docker】#1 はじめに+Dockerとは+Docker Desktopインストール](../docker1)  
+[【Docker】#2 ローカル(ホスト)に作業フォルダを作成](../docker2)  
+[【Docker】#3 Dockerfile+docker-compose.yml+各設定ファイルの設置](../docker3)  
+[【Docker】#4 Laravelをコマンドでインストール](../docker4)  
+[【Docker】#5 dockerでコンテナ(機能)を起動+Laravel表示確認](../docker5)  
+[【Docker】#6 LaravelのDB設定、確認](../docker6)  
+[【Docker】#7 phpMyAdmin表示確認](../docker7)  
+[【Docker】#8 できてる環境の確認](../docker8)
 </div>
 
 ## 用語
@@ -210,7 +210,7 @@ Docker内で保持されるので、一見するとどこに行ったかわか�
 ※匿名ボリュームというのもありますが、基本的に名前付きがつかわれます。
 
 ボリュームの実際の書き方は以下のdocker-compose.ymlのコメントを参考にしてください。  
-[docker-compose.ymlを作成](https://minememo.work/docker3#1docker-composeyml)
+[docker-compose.ymlを作成](../docker3#1docker-composeyml)
 
 ボリュームはしれっとたまっていくので定期的にお掃除する必要があります。  
 作業データがいらなくなったときに、以下どちらを使い用途に応じて削除するといいと思います。
@@ -298,7 +298,7 @@ docker-composeのvolumeでフレームワークのフォルダが事前に必要
 フォルダが先にないとエラーが出たりする
 
 この記事でLaravelをインストールするときに使ってます。  
-[2.Laravelのインストールコマンドを実行](https://minememo.work/docker4#2Laravel)
+[2.Laravelのインストールコマンドを実行](../docker4#2Laravel)
 
 ### Docker コンテナの詳細情報確認
 

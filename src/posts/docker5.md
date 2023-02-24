@@ -28,10 +28,10 @@ Dockerfileや各種設定ファイル、そもそもDocker、Laravelのインス
 <div class="boxparts ref">
   <div class="title"></div>
   
-[【Docker】#1 はじめに+Dockerとは+Docker Desktopインストール](https://minememo.work/docker1)  
-[【Docker】#2 ローカル(ホスト)に作業フォルダを作成](https://minememo.work/docker2)  
-[【Docker】#3 Dockerfile+docker-compose.yml+各設定ファイルの設置](https://minememo.work/docker3)  
-[【Docker】#4 Laravelをコマンドでインストール](https://minememo.work/docker4)
+[【Docker】#1 はじめに+Dockerとは+Docker Desktopインストール](../
+[【Docker】#2 ローカル(ホスト)に作業フォルダを作成](../docker2)  
+[【Docker】#3 Dockerfile+docker-compose.yml+各設定ファイルの設置](../docker3)  
+[【Docker】#4 Laravelをコマンドでインストール](../docker4)
 </div>
 
 
@@ -113,7 +113,7 @@ Dockerを使うには、Docker Desktop アプリを起動する必要があり�
 Docker Desktop アプリってなんだっけ？という方は最初の記事を見てみてください。  
 最初にインストールしたアプリです。
 
-[Docker Desktopインストール](https://minememo.work/docker1#Docker_Desktop)
+[Docker Desktopインストール](../docker1#Docker_Desktop)
 
 </div>
 
