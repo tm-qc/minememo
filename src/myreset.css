@@ -15,7 +15,7 @@ a {
 
 
 /* iphone11 414 * 896 */
-@media(max-width: 414px) {
+@media(max-width: 415px) {
   body{
     width:120vw;
   }
