@@ -69,7 +69,11 @@ img{
   }
 }
 
-/* media query レスポンシブ */
+/* 
+media query レスポンシブ
+max:画面サイズが◯◯px以下に適用
+min:画面サイズが◯◯px以上に適用
+ */
 @media(max-width: 500px) {
   .articleFrame{
     min-width: 440px;

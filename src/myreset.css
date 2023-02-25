@@ -4,13 +4,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  font-family: "Helvetica Neue",
-  Arial,
-  "Hiragino Kaku Gothic ProN",
-  "Hiragino Sans",
-  Meiryo,
-  sans-serif;
+  font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
   width:100vw;
 }
 
@@ -18,7 +12,6 @@ a {
   text-decoration: none;
   color: #000000;
 }
-
 
 
 /* iphone11 414 * 896 */
