@@ -32,7 +32,7 @@ const dateFormat = (dateStr) => moment(dateStr).format('YYYY-MM-DD');
 // ブログの個別ページを開くときに動くページっぽい
 export default function BlogPostTemplate({ data: { markdownRemark } }) {
   const { frontmatter, html } = markdownRemark;
-  console.log(frontmatter)
+  // console.log(frontmatter)
   const image = getImage(frontmatter.hero_image);
   return (
     <Layout>

@@ -9,5 +9,5 @@
  */
 exports.onRenderBody = ({setHtmlAttributes}) => {
   // setHtmlAttributes({ lang: `en` })
-  setHtmlAttributes({ lang: `ja` })
+  setHtmlAttributes({ lang: `en` })
 }

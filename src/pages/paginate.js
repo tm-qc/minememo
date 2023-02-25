@@ -12,7 +12,7 @@ import * as style from '../components/css/pagenate.module.css'
  * @param {object} data gatsby-node.js > src\templates\index.jsの流れで渡されるページャのデータ(pageContext)
  */
 const Pagenate = ({ pageContext }) => {
-  console.log(pageContext,'Pagenate');
+  // console.log(pageContext,'Pagenate');
   return (
     <div className={style.pagenateFrame}>
       <Link to={pageContext.previousPagePath}><span className={style.allow}>← </span></Link>
