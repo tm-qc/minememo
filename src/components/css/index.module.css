@@ -1,17 +1,17 @@
 /**記事リストの src\pages\index.js とタグの記事リス src\templates\tags.js と {markdownRemark.frontmatter__slug}.js で利用してます*/
 
-/* .indexFrame{
-} */
+.indexFrame{
+
+}
 
 .articleFrame {
-  min-width: 770px;
   max-width: 960px;
   margin: 32px;
 }
 
 .articleBox {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin: 32px;
   border: 1px solid var(--line-color);
@@ -20,7 +20,8 @@
 }
 
 img{
-  width: 200px;
+  max-width: 200px;
+  min-width: 60px;
 }
 
 .articleData{
@@ -38,9 +39,8 @@ img{
 }
 
 .sideFrame{
-  min-width: 256px;
   max-width: 320px;
-  margin-left: 64px;
+  margin-left: 32px;
 }
 
 .tagHeader{
@@ -56,17 +56,15 @@ img{
 
 /* media query レスポンシブ */
 @media(max-width: 1110px) {
-  .articleFrame{
-    min-width: 500px;
-  }
 
   .sideFrame{
-    min-width: 500px;
     max-width: 960px;
+    margin-left: 0;
   }
 
   img{
-    width: 100px;
+    max-width: 100px;
+    min-width: 60px;
   }
 }
 
@@ -77,7 +75,6 @@ min:画面サイズが◯◯px以上に適用
  */
 @media(max-width: 500px) {
   .articleFrame{
-    min-width: 440px;
     margin: 0px;
     justify-content: space-between;
   }
@@ -86,39 +83,3 @@ min:画面サイズが◯◯px以上に適用
     width: 100px;
   }
 }
-
-/* iphone11 414 * 896 */
-@media(max-width: 414px) {
-
-  .sideFrame{
-    min-width: 414px;
-  }
-
-  .articleFrame{
-    min-width: 414px;
-    margin: 16px 12px 16px -12px;
-  }
-}
-
-
-@media(max-width: 390px) {
-
-  .sideFrame{
-    min-width: 390px;
-  }
-
-  .articleFrame{
-    min-width: 330px;
-    margin: -20px;
-  }
-
-  img{
-    width: 70px;
-  }
-
-  .articleBox{
-    padding: 8px 4px;
-    font-size: 8px;
-  }
-}
-

@@ -7,7 +7,6 @@
 body{
   color: var(--font-color);
   font-family: "Helvetica Neue","Arial","Hiragino Kaku Gothic ProN","Hiragino Sans","Meiryo","sans-serif";
-  width:100vw;
 }
 
 .layoutFrame{
@@ -19,29 +18,8 @@ body{
 @media(max-width: 1110px) {
   .layoutFrame{
     flex-direction: column;
-    margin: 32px;
   }
 }
-
-/* @media(max-width: 1024px) {
-  .layoutFrame{
-    margin: 32px 64px 32px 24px;
-  }
-} */
-
-@media(max-width: 820px) {
-  .layoutFrame{
-    margin: 32px 64px 32px 24px;
-  }
-}
-
-/* iphone11 414 * 896 */
-@media(max-width: 414px) {
-  .layoutFrame{
-    margin: 32px;
-  }
-}
-
 
 /* media query レスポンシブ */
 @media(max-width: 390px) {

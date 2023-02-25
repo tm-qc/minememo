@@ -206,9 +206,22 @@ article.module.cssのolのスタイルを打ち消しながらしか書けなか
   }
 }
 
-/* media query レスポンシブ */
-@media(max-width: 375px) {
+@media(max-width: 425px) {
   .balloon .icon{
-    width: 120px;
+    width: 126px;
   }
 }
+
+@media(max-width: 375px) {
+  .balloon .icon{
+    width: 126px;
+  }
+}
+
+
+@media(max-width: 320px) {
+  .balloon .icon{
+    width: 146px;
+  }
+}
+

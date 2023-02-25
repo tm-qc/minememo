@@ -5,7 +5,6 @@ img{
 }
 
 .profileBox{
-  max-width: 780px;
   margin: 32px;
   padding: 32px;
   border: 1px solid var(--line-color);
@@ -45,20 +44,8 @@ img{
   }
 }
 
-@media(max-width: 820px) {
-  .profileBox{
-    margin: 32px 46px 32px 16px;
-  }
-}
 
 /* iphone11 414 * 896 */
-@media(max-width: 414px) {
-  .profileBox{
-    width: 356px;
-    padding: 8px;
-    margin: 16px 0;
-  }
-}
 
 
 
