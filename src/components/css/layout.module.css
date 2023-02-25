@@ -20,11 +20,11 @@ body{
   }
 }
 
-@media(max-width: 1024px) {
+/* @media(max-width: 1024px) {
   .layoutFrame{
     margin: 32px 64px 32px 24px;
   }
-}
+} */
 
 @media(max-width: 820px) {
   .layoutFrame{

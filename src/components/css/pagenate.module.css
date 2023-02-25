@@ -29,9 +29,17 @@
   margin: -10px 0 0 -7px;
 }
 
+@media(max-width: 414px) {
+  .pagenateFrame {
+    margin: 4px 12px;
+    min-width: 360px;
+    max-width: 414px;
+  }
+}
+
+
 @media(max-width: 390px) {
   .pagenateFrame {
     margin: 32px 12px;
   }
-
 }
