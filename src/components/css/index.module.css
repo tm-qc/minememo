@@ -1,7 +1,7 @@
 /**記事リストの src\pages\index.js とタグの記事リス src\templates\tags.js と {markdownRemark.frontmatter__slug}.js で利用してます*/
 
-.indexFrame{
-}
+/* .indexFrame{
+} */
 
 .articleFrame {
   min-width: 770px;
