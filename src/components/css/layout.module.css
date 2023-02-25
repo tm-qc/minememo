@@ -32,6 +32,13 @@ body{
   }
 }
 
+/* iphone11 414 * 896 */
+@media(max-width: 414px) {
+  .layoutFrame{
+    margin: 32px 12px 32px 12px;
+  }
+}
+
 
 /* media query レスポンシブ */
 @media(max-width: 390px) {

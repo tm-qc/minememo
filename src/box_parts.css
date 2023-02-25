@@ -200,7 +200,7 @@ article.module.cssのolのスタイルを打ち消しながらしか書けなか
   }
 }
 
-@media(min-width: 414px) {
+@media(max-width: 414px) {
   .balloon .icon{
     background-size: 100px;
     width: 126px;

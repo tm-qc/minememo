@@ -19,7 +19,7 @@
 }
 
 /* iphone11 414 * 896 */
-@media(min-width: 414px) {
+@media(max-width: 414px) {
   .twitterFrame{
     width: 96%;
     margin: -8px;
