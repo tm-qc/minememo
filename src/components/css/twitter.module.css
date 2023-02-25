@@ -18,6 +18,15 @@
   }
 }
 
+/* iphone11 414 * 896 */
+@media(max-width: 414px) {
+  .twitterFrame{
+    width: 96%;
+    margin: -8px;
+  }
+}
+
+
 
 /* media query レスポンシブ */
 @media(max-width: 390px) {

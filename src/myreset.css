@@ -5,6 +5,12 @@ body{
   padding: 0;
   box-sizing: border-box;
   width:100vw;
+  font-family: "Helvetica Neue",
+  Arial,
+  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;
 }
 
 a {
@@ -14,3 +20,9 @@ a {
 
 
 
+/* iphone11 414 * 896 */
+@media(max-width: 414px) {
+  body{
+    width:120vw;
+  }
+}
