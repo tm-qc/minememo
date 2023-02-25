@@ -199,3 +199,12 @@ article.module.cssのolのスタイルを打ち消しながらしか書けなか
     height: 100px;
   }
 }
+
+/* media query レスポンシブ */
+@media(max-width: 375px) {
+  .balloon .icon{
+    background-size: 100px;
+    width: 120px;
+    height: 100px;
+  }
+}

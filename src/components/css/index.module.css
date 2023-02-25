@@ -73,7 +73,7 @@ img{
 @media(max-width: 500px) {
   .articleFrame{
     min-width: 440px;
-    margin: -18px;
+    margin: 0px;
     justify-content: space-between;
   }
 
@@ -83,9 +83,14 @@ img{
 }
 
 @media(max-width: 390px) {
+
+  .sideFrame{
+    min-width: 390px;
+  }
+
   .articleFrame{
     min-width: 330px;
-    margin: -12px;
+    margin: -20px;
   }
 
   img{

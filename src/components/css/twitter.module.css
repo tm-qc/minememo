@@ -1,0 +1,28 @@
+.twitterFrame{
+  width: auto;
+}
+
+
+/* media query レスポンシブ */
+
+@media(max-width: 820px) {
+  .twitterFrame{
+    width: 96%;
+  }
+}
+
+@media(max-width: 500px) {
+  .twitterFrame{
+    width: 96%;
+    margin: 16px;
+  }
+}
+
+
+/* media query レスポンシブ */
+@media(max-width: 390px) {
+  .twitterFrame{
+    width: 90%;
+    margin: 16px;
+  }
+}

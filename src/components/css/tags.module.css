@@ -27,3 +27,10 @@ li{
   list-style:none;
 }
 
+/* レスポンシブ */
+@media(max-width: 820px) {
+  .tagsBox{
+    margin: 32px 46px 32px 16px;
+  }
+}
+
