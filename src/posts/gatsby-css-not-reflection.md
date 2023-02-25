@@ -19,9 +19,9 @@ GatsbyでbuildしてNetlifyでデプロイしたら一部CSSが反映しない�
 
 状況は以下の通り
 
-1. gatsby develop 反映してる ○
-2. gatsby build → gatsby serve 反映してる　○
-3. gatsby build → GitHub → Netlify 反映しない ×
+1. gatsby develop 反映してる ⭕
+2. gatsby build → gatsby serve 反映してる　⭕
+3. gatsby build → GitHub → Netlify 反映しない ✖
 
 ## 解決方法
 
@@ -29,7 +29,7 @@ CSSはきちんと書こうってことでした。
 
 ```CSS:title=CSS
 
-↓NGなパターン
+↓✖NGなパターン
 
 body {
   font-family: "Helvetica Neue",
@@ -40,7 +40,7 @@ body {
 
 ```CSS:title=CSS
 
-↓OKなパターン
+↓⭕OKなパターン
 
 body {
   font-family: "Helvetica Neue",
@@ -49,6 +49,7 @@ body {
 }
 ```
 
+<br>
 インターネットで信頼している記事を参考に気軽にコピペで使ったのですが、
 クォーテーションが合ったりなかったりしたら、Netlify側でうまく反映出来ない感じでした。
 
@@ -56,7 +57,7 @@ body {
   <div class="icon"></div>
   <div class="talk">
 本当に凡ミスでした。<br>
-ただ、3 のパターンだけ反映しないのと、Netlifyのデプロイの時だけ失敗する。<br>
-という状況で、原因が判明したのも勘で偶然できただけ、かなり時間がとられました・・。
+ただ、Netlifyのデプロイの時だけ失敗する。<br>
+という状況で、原因が判明したのも勘で偶然できただけでかなり時間がとられました・・。
   </div>
 </div>
