@@ -87,7 +87,7 @@ min:画面サイズが◯◯px以上に適用
 }
 
 /* iphone11 414 * 896 */
-@media(max-width: 415px) {
+@media(min-width: 414px) {
 
   .sideFrame{
     min-width: 414px;
