@@ -34,3 +34,12 @@ li{
   }
 }
 
+
+/* iphone11 414 * 896 */
+@media(max-width: 414px) {
+  .profileBox{
+    width: 356px;
+    padding: 0;
+    margin: 16px 0;
+  }
+}
