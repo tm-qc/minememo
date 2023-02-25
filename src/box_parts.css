@@ -200,6 +200,14 @@ article.module.cssのolのスタイルを打ち消しながらしか書けなか
   }
 }
 
+@media(max-width: 414px) {
+  .balloon .icon{
+    background-size: 100px;
+    width: 126px;
+    height: 100px;
+  }
+}
+
 /* media query レスポンシブ */
 @media(max-width: 375px) {
   .balloon .icon{

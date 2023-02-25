@@ -82,6 +82,20 @@ img{
   }
 }
 
+/* iphone11 414 * 896 */
+@media(max-width: 414px) {
+
+  .sideFrame{
+    min-width: 414px;
+  }
+
+  .articleFrame{
+    min-width: 542px;
+    margin: 16px 64px 16px -44px;
+  }
+}
+
+
 @media(max-width: 390px) {
 
   .sideFrame{
@@ -103,10 +117,3 @@ img{
   }
 }
 
-/* iphone11 414 * 896 */
-@media(max-width: 414px) {
-  .articleFrame{
-    min-width: 542px;
-    margin: 16px 64px 16px -44px;
-  }
-}
