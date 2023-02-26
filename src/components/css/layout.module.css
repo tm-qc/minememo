@@ -7,6 +7,7 @@
 body{
   color: var(--font-color);
   font-family: "Helvetica Neue","Arial","Hiragino Kaku Gothic ProN","Hiragino Sans","Meiryo","sans-serif";
+  overflow:hidden;/*スマホ横揺れ防止*/
 }
 
 .layoutFrame{
