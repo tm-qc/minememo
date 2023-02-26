@@ -1,7 +1,7 @@
 ---
 title: '【Gatsby】Netlifyで一部CSSが反映しない'
 date: '2023-02-25'
-update_at: '2023-02-25' #無いとエラーになるので更新日ないときはdateと揃えてください。
+update_at: '2023-02-26' #無いとエラーになるので更新日ないときはdateと揃えてください。
 slug: 'gatsby-css-not-reflection'
 hero_image: '../images/gatsby-icon.png'
 tags: ["Gatsby","Netlify"]
@@ -52,6 +52,29 @@ body {
 <br>
 インターネットで信頼している記事を参考に気軽にコピペで使ったのですが、
 クォーテーションが合ったりなかったりしたら、Netlify側でうまく反映出来ない感じでした。
+
+
+### 追記
+以下もダメでした。<br>
+エラー出ないし。Netlifyに反映しないだけなので厄介なので、今後また発生しだい追記しようかと思います・・・。
+
+```CSS:title=CSS
+
+↓✖NGなパターン
+
+body {
+  padding: 8px 0 8px 0;
+}
+```
+
+```CSS:title=CSS
+
+↓⭕OKなパターン
+
+body {
+  padding: 8px 0px 8px 0px;
+}
+```
 
 <div class="balloon">
   <div class="icon"></div>
