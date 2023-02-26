@@ -11,7 +11,7 @@ module.exports = {
   // meta情報のデフォルト値
   siteMetadata: {
     // ブログのタイトル
-    title: 'BlogTitle',
+    title: 'MinEMemO',
     // authorはオブジェクト形式でnameとsummaryの記載は必須かも。GraphiQLでnameとsummaryありきになる
     author: 
     {
@@ -21,7 +21,7 @@ module.exports = {
     //ブログの開始年 footerに表示されます
     startYear:'2020',
     //ブログの説明文
-    description: `Gatsby.js Blog Site`,
+    description: `個人用の開発ブログ。ReactベースのGatsby.jsで自作しています。`,
     user: { name: 'taka', job:'プログラマー',email: 'web.tm.mail@gmail.com' },
     //profile本文
     profile:`
@@ -35,7 +35,7 @@ module.exports = {
 このブログは完全に自作で静的ジェネレータで作りました。
 この範囲で言えば React.js Gatsby.js GraphQLも経験があります。
     `,
-    siteUrl: `https://blogdomain`,
+    siteUrl: `https://minememo.work/`,
     social: {
       twitter: `tm_web_jc`,
     },
