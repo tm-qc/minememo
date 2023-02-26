@@ -1,13 +1,13 @@
 .twitterFrame{
-  width: 86%;
-  padding: 16px;
+  max-width: 100%;
+  /* padding: 16px; */
 }
 
 
 /* media query レスポンシブ */
-
+/* 
 @media(max-width: 1110px) {
   .twitterFrame{
     padding: 16px 16px 16px 32px;
   }
-}
+} */

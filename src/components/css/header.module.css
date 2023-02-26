@@ -1,14 +1,14 @@
 header{
-  width: 100%;
+  width: 100vw;
   text-align: center;
   background-color: var(--main-color);
   color: var(--white);
-  padding: 16px;
+  padding: 8px 0 8px 0;
 }
 
 .h1{
   color: var(--white);
-  font-size: xxx-large
+  font-size: 3rem;
 }
 
 

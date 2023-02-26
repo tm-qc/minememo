@@ -1,9 +1,3 @@
-
-
-img{
-  width: 200px;
-}
-
 .profileBox{
   margin: 32px;
   padding: 32px;
@@ -41,6 +35,31 @@ img{
 @media(max-width: 1110px) {
   img{
     width: 100px;
+  }
+}
+
+@media(max-width: 425px) {
+  img{
+    width: 114px;
+  }
+}
+
+@media(max-width: 414px) {
+  img{
+    width: 112px;
+  }
+}
+
+@media(max-width: 375px) {
+  img{
+    width: 126px;
+  }
+}
+
+
+@media(max-width: 320px) {
+  img{
+    width: 146px;
   }
 }
 

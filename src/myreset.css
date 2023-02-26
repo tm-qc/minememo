@@ -1,5 +1,10 @@
 /* normalize.css で無いものを自分で補足したreset系のcss */
 
+html {
+  overflow-x: hidden;
+  overflow-y: scroll; -webkit-overflow-scrolling: touch
+  }
+
 body{
   margin: 0;
   padding: 0;

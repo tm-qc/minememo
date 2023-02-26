@@ -4,6 +4,10 @@
 
 }
 
+img{
+  width: 200px;
+}
+
 .articleFrame {
   max-width: 960px;
   margin: 32px;
@@ -17,11 +21,6 @@
   border: 1px solid var(--line-color);
   padding: 32px;
   box-shadow: 0px 3px 3px var(--box-shadow-color);
-}
-
-img{
-  max-width: 200px;
-  min-width: 60px;
 }
 
 .articleData{
@@ -60,11 +59,6 @@ img{
   .sideFrame{
     max-width: 960px;
     margin-left: 0;
-  }
-
-  img{
-    max-width: 100px;
-    min-width: 60px;
   }
 }
 

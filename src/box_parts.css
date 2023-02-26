@@ -200,15 +200,15 @@ article.module.cssのolのスタイルを打ち消しながらしか書けなか
   }
 }
 
-@media(max-width: 414px) {
+@media(max-width: 425px) {
   .balloon .icon{
-    width: 126px;
+    width: 114px;
   }
 }
 
-@media(max-width: 425px) {
+@media(max-width: 414px) {
   .balloon .icon{
-    width: 126px;
+    width: 112px;
   }
 }
 
