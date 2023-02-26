@@ -4,6 +4,7 @@ header{
   background-color: var(--main-color);
   color: var(--white);
   padding: 8px 0px 8px 0px;
+  letter-spacing: 0.06em;
 }
 
 .h1{
