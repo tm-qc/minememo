@@ -19,7 +19,7 @@ const Footer = () => {
   );
   return (
     <footer>
-      <div><Link to="/">Copyright © {data.site.siteMetadata.startYear} - {new Date().getFullYear()} {data.site.siteMetadata.title} </Link></div>
+      <div className={style.aFontColor}><Link to="/">Copyright © {data.site.siteMetadata.startYear} - {new Date().getFullYear()} {data.site.siteMetadata.title} </Link></div>
     </footer>
   );
 };

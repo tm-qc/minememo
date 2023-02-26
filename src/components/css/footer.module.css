@@ -6,6 +6,6 @@ footer{
   margin-top: 32px;
 }
 
-footer div a{
+.aFontColor a{
   color: var(--white);
 }
