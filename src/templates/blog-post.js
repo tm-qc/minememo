@@ -36,7 +36,7 @@ export default function BlogPostTemplate({ data: { markdownRemark } }) {
   const image = getImage(frontmatter.hero_image);
   return (
     <Layout>
-      <div className={aStyle.articleFrame}>
+      <div className={style.articleFrame}>
         <h1>{frontmatter.title}</h1>
         <div className={aStyle.date}>&#x1f4dd; 更新日：{dateFormat(frontmatter.update_at)} / &#x1f4c4; 作成日：{dateFormat(frontmatter.date)}</div>
         <div className={aStyle.eyeCatch}>
