@@ -1,10 +1,10 @@
 ---
-title: '【Google AdSence】アドセンス ads.txt 設置方法'
+title: '【Google AdSence】WordPress ads.txt 設置方法'
 date: '2020-04-30'
 update_at: '2020-05-18' #無いとエラーになるので更新日ないときはdateと揃えてください。
 slug: 'ads-txt-set'
 hero_image: '../images/posts/google-adsense-logo-2019.jpg'
-tags: ["Google AdSence"]
+tags: ["Google AdSence","WordPress"]
 ---
 
 <div class="toc-title">目次</div>
