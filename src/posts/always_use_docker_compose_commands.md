@@ -95,7 +95,7 @@ docker-compose stop
 ```
 
 ※コンテナの削除はしません。  <br>
-※docker-compose start または docker-compose up で再起動できます。<br>
+※docker-compose start または docker-compose up で再起動できます<br>
 
 ちなみに筆者的には<span style="color:red;">stopより**down(コンテナ、イメージ削除+停止)が良い**と思っています</span>。<br>
 
