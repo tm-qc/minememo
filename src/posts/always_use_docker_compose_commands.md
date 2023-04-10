@@ -78,7 +78,7 @@ docker-compose up -d
 ```
 
 ※このコマンドはビルド( docker-compose build )+スタート( docker-compose start )を行っています。  
-※ -d はバックグラウンド実行になり、コマンドプロンプトの占有を防ぐためのオプションです。
+※ -d はバックグラウンド実行になり、コマンドプロンプトの占有を防ぐためのオプションです
 
 <div class="boxparts ref">
   <div class="title"></div>
