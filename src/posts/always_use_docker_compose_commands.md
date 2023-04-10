@@ -1,7 +1,7 @@
 ---
 title: '【Docker】よく使うコマンド' #記事のタイトル
 date: '2022-10-26' #作成日
-update_at: '2022-10-27' #更新日 無いとエラーになるので更新日ないときはdateと揃えてください。
+update_at: '2023-04-10' #更新日 無いとエラーになるので更新日ないときはdateと揃えてください。
 slug: 'always_use_docker_compose_commands' #url ファイル名と合わせてください
 hero_image: '../images/posts/docker_icon.jpg' #アイキャッチ画像
 tags: ["Docker"] #タグ カテゴリとして使ってもOK
@@ -94,13 +94,36 @@ docker-compose up -d
 docker-compose stop
 ```
 
-※コンテナの削除はしません。  
-※docker-compose start または docker-compose up で再起動できます。
+※コンテナの削除はしません。  <br>
+※docker-compose start または docker-compose up で再起動できます。<br>
+
+ちなみに筆者的には<span style="color:red;">stopより**down(コンテナ、イメージ削除+停止)が良い**と思っています</span>。<br>
+
+```
+docker-compose down
+```
+理由は下の「注意」を参考にしてください。<br>
+
+
+<div class="boxparts caution">
+  <div class="title"></div>
+
+  **■「docker-compose stop」ではなく「docker-compose down」を使う理由**<br>
+<br>
+  複数の環境を切り替えて使う場合、サービス名やポートの重複、キャッシュなどで、**うまく起動しなくなる場合があります**。<br>
+  その場合は「docker system prune」で全体のお掃除をして解消も出来ますが、別環境をup(起動)するたびに全てインストールしなおしなので、初回起動時に**めちゃくちゃ時間がかかります**。<br>
+<br>
+  また、別環境使うときに以前使ってた、もしくは影響してる環境を覚えてない場合は、それを探してdownしないといけなくなります。<br>
+  なので、筆者としては基本的にstopするときは常に「docker-compose down」を使ったほうが良いと思っています。<br>
+
+
+</div>
 
 <div class="boxparts ref">
   <div class="title"></div>
   
-[docker-compose stop](https://docs.docker.jp/compose/reference/stop.html)
+[docker-compose stop(公式)](https://docs.docker.jp/compose/reference/stop.html)<br>
+[docker-compose down(ページ内アンカー)](#1%E4%BB%8A%E3%81%84%E3%82%8B%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E3%81%AB%E5%AF%BE%E3%81%97%E3%81%A6%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%81%AE%E5%89%8A%E9%99%A4)<br>
 </div>
 
 起動しているコンテナの一覧を確認
