@@ -462,6 +462,42 @@ Dockerfileをコンテナにする場合は以下2つのコマンドを使いま
 今回はMySQL、php、nginx、phpMyAdminの四つのコンテナで構成されてるので、docker-compose.ymlを使わない場合、毎回起動時にこのセットを4回しないといけなくなります。
 </div>
 
+<div class="boxparts ref">
+  <div class="title"></div>
+
+  **■複数環境を立ち上げるときのportsの指定について**<br>
+
+  mysqlなど複数立ち上げるときに port を分ける必要があります。<br>
+  <br>
+  単独で使うときは以下の短い構文でOK。<br>
+  
+```command:title=単独はこれでOK
+    ports:
+      - 3306:3306
+```
+
+  <br>複数環境を立ち上げるときは短い構文ではうまくいきません。
+
+```command:title=複数の場合はNG
+ports:
+  - 3306:13306
+```
+
+  <br>複数環境の場合は以下のように長い構文で分けて書くとうまくいきます。
+
+```command:title=複数環境立ち上げてポートを分ける場合はこれでOK
+ports:
+  - target: 3306 #ローカル側。Laravel の .env の DB_PORT にはこれを書く
+    published: 13306 #コンテナ側
+    protocol: tcp
+    mode: host
+```
+    
+  <br>参考サイト<br>
+  [Compose ファイル version 3 リファレンス](https://docs.docker.jp/compose/compose-file/compose-file-v3.html#ports)<br>
+
+</div>
+
 さいごに
 ----
 
