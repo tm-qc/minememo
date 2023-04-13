@@ -1,7 +1,7 @@
 ---
 title: '【Docker】#3 Dockerfile+docker-compose.yml+各設定ファイルの設置' #記事のタイトル
 date: '2022-10-13' #作成日
-update_at: '2022-10-24' #更新日 無いとエラーになるので更新日ないときはdateと揃えてください。
+update_at: '2023-04-13' #更新日 無いとエラーになるので更新日ないときはdateと揃えてください。
 slug: 'docker3' #url ファイル名と合わせてください
 hero_image: '../images/posts/docker_icon.jpg' #アイキャッチ画像
 tags: ["Docker"] #タグ カテゴリとして使ってもOK
@@ -337,6 +337,7 @@ version: "3.9"
 #使うサービス(機能)を書いていく
 services:
   #サービス名(任意で命名)
+  #docker/nginx/default.confのfastcgi_passはサービス名：9000となっているので、こことあわせないといけない
   php:
     #自作のDockerfileからイメージ生成するための記載
     build:
@@ -375,6 +376,7 @@ services:
       - ./laravel/:/app
 
   #サービス名  
+  #phpmyadminがある場合、下段の設定値のPMA_HOSTに設定されてます
   mysql:
     build:
       context: .
