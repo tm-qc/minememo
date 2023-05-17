@@ -1,7 +1,7 @@
 ---
 title: '【Docker】よく使うコマンド' #記事のタイトル
 date: '2022-10-26' #作成日
-update_at: '2023-04-10' #更新日 無いとエラーになるので更新日ないときはdateと揃えてください。
+update_at: '2023-05-17' #更新日 無いとエラーになるので更新日ないときはdateと揃えてください。
 slug: 'always_use_docker_compose_commands' #url ファイル名と合わせてください
 hero_image: '../images/posts/docker_icon.jpg' #アイキャッチ画像
 tags: ["Docker"] #タグ カテゴリとして使ってもOK
@@ -183,6 +183,26 @@ $ docker-compose exec DBのサービス名 bash
 
 Dockerの設定ファイルを書き直したり、イメージをつくりなおして再度コンテナを起動したい場合は、よく以下のコマンドを使い削除します。
 
+  ```
+  docker-compose down
+  ↓
+  docker-compose up -d --build
+  ```
+  ※ --build：コンテナを開始前にイメージを構築する<br>
+
+
+<div class="boxparts ref">
+  <div class="title"></div>
+  
+[docker-compose down](https://docs.docker.jp/compose/reference/down.html)
+
+</div>
+
+<div class="boxparts ref">
+  <div class="title"></div>
+
+  キャッシュ等でうまく更新できない場合は「docker-compose down --rmi all --remove-orphans」で綺麗にしてから「docker-compose up -d」をすると解決すると思います。<br>
+  
 ```
 docker-compose down --rmi all --remove-orphans
 ```
@@ -198,15 +218,20 @@ docker-compose down --rmi all --remove-orphans
 - –rmi all オプションで全イメージを削除
 - –remove-orphans オプションでComposeファイルで定義していないサービス用のコンテナも削除
 
+</div>
+
 <div class="boxparts ref">
   <div class="title"></div>
-  
-[docker-compose down](https://docs.docker.jp/compose/reference/down.html)
 
-</div><div class="concept-box6">よくでてくる「docker system prune」はディレクトリ関係なく、使われてないイメージ、コンテナ、ネットワークを削除（prune）するコマンドです。
-
+**「docker system prune」との違いについて**<br>
+<br>
+このコマンドはディレクトリ関係なく、使われてないイメージ、コンテナ、ネットワークを削除（prune）するコマンドです。<br>
+<br>
 Docker全体に対するお掃除という感じです。
+
 </div>
+
+
 
 <div class="boxparts point">
   <div class="title"></div>
@@ -217,11 +242,11 @@ Docker全体に対するお掃除という感じです。
 Dockerはメモリ上で動くため、コンテナを削除した時点で作業した内容が消えてしまいます。  
 そのためボリュームという機能をつかってファイルやDBの情報を永続化し消えないようにします。
 
-主に以下のように使われます。
+主に以下のような用語があります。それぞれ利用します。
 
 **・バインドマウント**  
-**主に作業ファイルを残したいときに使います。**  
-ローカルにコンテナ側を同期してパソコン内に作業ファイルを保存します。  
+ローカルのファイルをコンテナ側を同期(マウント)します(=コンテナに変更を自動反映)  <br>
+※作業ファイルはローカルに残ります<br>
 <span style="color: #ff0000;">削除タイミングは自分でフォルダを消すときになります。</span>
 
 **・名前付きボリューム**  
