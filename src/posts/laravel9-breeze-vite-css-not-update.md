@@ -1,7 +1,7 @@
 ---
-title: '【Docker】Laravel9+Laravel Breezeで@viteでCSSが反映しない' #記事のタイトル
+title: '【Docker】Laravel 9+Laravel Breezeで@viteのCSSが反映しない' #記事のタイトル
 date: '2023-05-17' #作成日
-update_at: '2023-05-17' #更新日 無いとエラーになるので更新日ないときはdateと揃えてください。
+update_at: '2023-05-18' #更新日 無いとエラーになるので更新日ないときはdateと揃えてください。
 slug: 'laravel9-breeze-vite-css-not-update' #url ファイル名と合わせてください
 hero_image: '../images/posts/docker_icon.jpg' #アイキャッチ画像
 tags: ["Docker","Laravel"] #タグ カテゴリとして使ってもOK
@@ -15,6 +15,8 @@ tags: ["Docker","Laravel"] #タグ カテゴリとして使ってもOK
 ## はじめに
 以下の組み合わせで、CSSが反映しない状態になりました。<br>
 変更しないといけないことが多かったので、反映するまでに変更した部分だけ記載したいと思います。<br>
+<br>
+原因はLaravel 9からViteになったことが主な原因だそうで、そこに対しての調整になります。<br>
 
 - Windows PC
 - Docker
@@ -81,7 +83,26 @@ EXPOSE 5173
 
 ```
 ※追加場所はpluginsの下にしました。<br>
-※vite.config.jsはLaravel BreezeをインストールしたらLaravelプロジェクトの直下に自動でできるファイルです。
+※vite.config.jsはLaravel9をインストールしたらLaravelプロジェクトの直下に自動でできるファイルです。
+
+## Laravel Breezeインストールやnpm run dev時にnpmエラーが出る場合
+
+### PHPイメージを読み込む Dockerfile
+
+node.jsのバージョンが古いとダメみたいです。<br>
+16.16.0なら大丈夫とのことで、バージョンアップする必要があります。<br>
+<br>
+Dockerfile内の RUN apt-get install の部分でnode.jsのバージョンを指定するようにします。<br>
+<br>
+以下追加<br>
+
+```Dockerfile:title=Dockerfile
+
+RUN apt-get install -y node.js npm && npm install n -g && n 16.16.0
+
+```
+※追加場所はRUNの最後にしました。<br>
+※もし既存でnode.jsのインストールしてる場所があれば消してください。<br>
 
 
 ## 表示の高速化
