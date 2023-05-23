@@ -42,7 +42,7 @@ GitHubにはデフォルトで改行コードを自動で変換する仕組み�
 改行コード変換機能の設定を確認するコマンドは↓<br>
 
 ```
-git.config core.autocrlf
+git config core.autocrlf
 ```
 
 inputに変更するコマンドは↓<br>
