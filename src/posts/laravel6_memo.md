@@ -286,7 +286,7 @@ DB::table('users')->insert(
   [
     'name'=>'test',
     'email'=>'test@gmail.com',
-    'password'=>'test',
+    'password'=>Hash::make('test'),
   ],
   //下のようなランダム生成も可能
   [
@@ -304,12 +304,13 @@ DB::table('users')->insert(
 
 //TOPでuseを記載
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 DB::table('users')->insert(
   [
     'name'=>'test',
     'email'=>'test@gmail.com',
-    'password'=>'test',
+    'password'=>Hash::make('test'),
   ],
 );
 
@@ -317,7 +318,7 @@ DB::table('users')->insert(
   [
     'name'=>'test2',
     'email'=>'tes2@gmail.com',
-    'password'=>'test2',
+    'password'=>Hash::make('test'),
   ],
 );
 
