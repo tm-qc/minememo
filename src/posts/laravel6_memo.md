@@ -281,6 +281,7 @@ database\seeds\UsersTableSeeder.php
 
 //TOPでuseを記載
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 DB::table('users')->insert(
   [
