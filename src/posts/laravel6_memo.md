@@ -279,6 +279,9 @@ database\seeds\UsersTableSeeder.php
 
 ```php:title=Laravel
 
+//TOPでuseを記載
+use Illuminate\Support\Facades\DB;
+
 DB::table('users')->insert(
   [
     'name'=>'test',
@@ -290,6 +293,31 @@ DB::table('users')->insert(
     'name'=>Str::random(10),
     'email'=>Str::random(10).'@gameil.com',
     'password'=>Hash::make('password'),
+  ],
+);
+
+```
+
+※2行のデータををこの入れ方で手っ取り早く入れるなら以下のように出来るが、そもそも他のやり方もある。
+
+```php:title=Laravel
+
+//TOPでuseを記載
+use Illuminate\Support\Facades\DB;
+
+DB::table('users')->insert(
+  [
+    'name'=>'test',
+    'email'=>'email@gameil.com',
+    'password'=>'test',
+  ],
+);
+
+DB::table('users')->insert(
+  [
+    'name'=>'test2',
+    'email'=>'email2@gameil.com',
+    'password'=>'test2',
   ],
 );
 
@@ -306,7 +334,7 @@ DB::table('users')->insert(
 //配列で一気に渡せます
 $this->call(
   [
-    UserTableSeeder::class,
+    UsersTableSeeder::class,
     SampleTableSeeder::class,
   ]
 )
