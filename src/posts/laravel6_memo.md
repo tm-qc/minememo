@@ -360,7 +360,7 @@ composer dump-autoload
 
 php artisan db:seed //seederをすべて実行
 
-php artisan db:seed --class=UserTableSeeder //UserTableSeederのみ実行
+php artisan db:seed --class=UsersTableSeeder //UserTableSeederのみ実行
 
 php artisan migrate:fresh --seed //テーブル作成しなおし+seederをすべて実行
 
