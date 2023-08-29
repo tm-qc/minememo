@@ -285,7 +285,7 @@ use Illuminate\Support\Facades\DB;
 DB::table('users')->insert(
   [
     'name'=>'test',
-    'email'=>'email@gameil.com',
+    'email'=>'test@gmail.com',
     'password'=>'test',
   ],
   //下のようなランダム生成も可能
@@ -308,7 +308,7 @@ use Illuminate\Support\Facades\DB;
 DB::table('users')->insert(
   [
     'name'=>'test',
-    'email'=>'email@gameil.com',
+    'email'=>'test@gmail.com',
     'password'=>'test',
   ],
 );
@@ -316,7 +316,7 @@ DB::table('users')->insert(
 DB::table('users')->insert(
   [
     'name'=>'test2',
-    'email'=>'email2@gameil.com',
+    'email'=>'tes2@gmail.com',
     'password'=>'test2',
   ],
 );
