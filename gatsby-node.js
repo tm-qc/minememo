@@ -193,3 +193,11 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
   `)
 }
+
+// <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+// 241128 このエラーによりコメントアウト
+exports.onCreateWebpackConfig = ({ actions }) => {
+  a24112411ns.setWebpackConfig({
+    cache: false,
+  });
+};

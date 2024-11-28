@@ -173,13 +173,14 @@ module.exports = {
       },
     },
 
+    // なんかつかえなくなってたのでコメントアウト 241128
     //Google AdSenseのコードをheadに挿入するためのプラグイン
-    {
-      resolve: `@isamrish/gatsby-plugin-google-adsense`,
-      options: {
-        googleAdClientId: "ca-pub-5030891386703426",
-        head: false // Optional
-      }
-    }
+    // {
+    //   resolve: `@isamrish/gatsby-plugin-google-adsense`,
+    //   options: {
+    //     googleAdClientId: "ca-pub-5030891386703426",
+    //     head: false // Optional
+    //   }
+    // }
   ],
 }
